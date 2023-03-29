@@ -39,13 +39,13 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo da aplicação que envolverá esportes gratuitos são pessoas que desejam fazer (ou já
+façam) esportes, de uma maneira que além de ter um acesso mais simples e rápido, auxilie o atleta a
+encontrar companheiros de modalidades esportivas independentemente de suas características e
+objetivos:
+• Qualquer idade;
+• Renda Baixa (principalmente), entretanto não exclui as famílias com outras rendas;
+• Qualquer gênero sexual;
+• Pessoas que procuram usufruir de locais que possa ser praticado atividades físicas;
+• pessoas com deficiências que queiram fazer esportes;
+• Pessoas que querem se prevenir de doenças crônicas não transmissíveis;
