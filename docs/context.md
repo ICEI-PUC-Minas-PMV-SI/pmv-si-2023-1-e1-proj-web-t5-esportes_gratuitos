@@ -8,11 +8,11 @@ Nesse sentido, a aplicação proposta pretende fornecer informações sobre grup
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Fazer exercício físico ou praticar algum esporte traz benefícios enormes, não só em nível físico, mas também mental. Reduz o risco de sofrer doenças cardiovasculares, a pressão arterial e o estresse, ajuda a controlar o colesterol e nos faz descansar melhor. Entretanto, nos últimos anos a luta contra o sedentarismo se estagnou, conforme publicou a revista The Lancet em uma série de três artigos sobre o tema. Em nível global, os problemas decorrentes da falta de exercício físico e o sedentarismo são responsáveis por mais de cinco milhões de mortes por ano, além de acarretarem gastos sanitários superiores a 280 bilhões de reais ―dos quais mais de 160 bilhões provêm do setor público.(Alberto Quero,El País,2021).
+Segundo a publicação, o nível de atividade física nos adolescentes permanece estagnado desde 2012, e 80% dos jovens não seguem a recomendação da Organização Mundial da Saúde (OMS) de fazer uma hora de exercício físico por dia. Cerca de 40% dos estudantes nunca vão a pé para a escola, e 25% passam mais de três horas por dia sentados depois de assistirem às aulas e fazerem a lição de casa. (El País, 2021).
+Os brasileiros entrevistados pela Ipsos citaram alguns motivos pelos quais não praticam exercícios físicos. Os principais motivos para a falta da prática são a falta de tempo (32%), seguido pela falta de dinheiro (21%), a falta de instalações nas proximidades de onde vive (13%), a falta de conhecidos para fazer companhia na prática (13%) e o clima muito quente ou muito frio (8%).(CNN,2021)
+Portanto, torna-se necessário uma aplicação que ajude a resolver essa problemática no Brasil e no mundo, fazendo com que a prática de atividades físicas seja incentivada e democratizada, com isso teremos uma população mais saudável tanto física quanto mentalmente e também podendo gerar uma economia de bilhões de reais aos cofres públicos do Brasil.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
