@@ -1,13 +1,10 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+A prática de atividades físicas e esportivas é fundamental para a promoção da saúde e prevenção de doenças crônicas não transmissíveis, como a obesidade, diabetes e doenças cardiovasculares (WHO, 2018). Além disso, a participação em grupos esportivos pode trazer benefícios sociais, como a promoção de laços de amizade, senso de pertencimento e redução do isolamento social (HARRIS, 2018; WHO, 2018).
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+No entanto, a falta de informações e acesso limitado aos grupos esportivos, aliada à falta de recursos financeiros, pode ser um obstáculo significativo para a participação da população em atividades físicas e esportivas (SANTOS, et al., 2010). Portanto, é fundamental que haja opções gratuitas ou com custos reduzidos para garantir o acesso igualitário a essas atividades, especialmente para aqueles que possuem menor poder aquisitivo (WHO, 2018).
 
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Nesse sentido, a aplicação proposta pretende fornecer informações sobre grupos esportivos gratuitos disponíveis em uma determinada cidade, sendo assim uma ferramenta essencial para aumentar o acesso e o engajamento da população em práticas esportivas (PAULA et al., 2021). Com o uso dessa ferramenta, é possível localizar e se conectar com facilidade a grupos esportivos gratuitos na região, possibilitando a participação nessas atividades sem enfrentar barreiras financeiras. Essa iniciativa é fundamental para a promoção da saúde e do bem-estar físico e social da população brasileira, contribuindo para o alcance de objetivos relacionados ao incentivo da prática de atividades físicas e esportivas no país (BRASIL, 2021). 
 
 ## Problema
 
