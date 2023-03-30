@@ -45,9 +45,9 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <br>
 
-<img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228673629-7ec6e2ea-3a5c-4158-a64d-591d6f3df014.jpg" />
+<img align="left" width="256" src="https://coexistir.com.br/wp-content/uploads/2017/10/deficientes-esportes3.jpg" />
 
-### Dr. Paulo Oliveira, 45 anos
+### Joaquim Mariano, 58 anos
 
 Dr. Paulo Oliveira é um pesquisador renomado em sua área, que se dedica à pesquisa de doenças crônicas não transmissíveis, como obesidade, diabetes e doenças cardiovasculares. Ele trabalha em uma grande instituição que tem como objetivo melhorar a saúde da população através de pesquisas científicas. Está buscando informações que corroborem com suas pesquisas, permitindo que ele analise como a participação em atividades físicas e esportivas podem ajudar a prevenção de doenças.
 
