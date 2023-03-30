@@ -17,7 +17,7 @@ Os brasileiros entrevistados pela Ipsos citaram alguns motivos pelos quais não 
 ## Objetivos
 
 Segundo a análise a atividade física é fundamental para promover a saúde e o bem-estar e é essencial para ajudar as pessoas a terem uma vida mais saudável.
-Com base nos problemas enfrentados por quem já pratica ou deseja praticar determinado esporte , o pricipal objetivo do software é fornecer uma aplicaçã que ajude a resolver essa problemática no Brasil e no mundo , facilitando encontrar e ingressar não so em grupos esportivos com diferentes modalidades e sim tambem,aulas de capoeira, hip hop, hidroginástica, peteca,alongamentos, ioga ,ginástica ,modalidades adaptadas PCD gratuitamente.
+Com base nos problemas enfrentados por quem já pratica ou deseja praticar determinado esporte , o pricipal objetivo do software é fornecer uma aplicação que ajude a resolver essa problemática no Brasil e no mundo , facilitando encontrar e ingressar não so em grupos esportivos com diferentes modalidades e sim tambem,aulas de capoeira, hip hop, hidroginástica, peteca,alongamentos, ioga ,ginástica ,modalidades adaptadas PCD gratuitamente.
 
 
 ## Justificativa
