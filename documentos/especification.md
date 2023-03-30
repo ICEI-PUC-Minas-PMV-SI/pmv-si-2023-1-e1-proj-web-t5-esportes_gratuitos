@@ -45,7 +45,7 @@ Carlos tem 32 anos e é funcionário do banco,ele  quer passar a ter hábitos sa
 
 <img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228738261-76dca216-4c94-45ea-af90-44ee7919059a.jpg" />
 
-### João, 28 anos, solteiro, estudante universitário.
+### João de Abreu, 28 anos, solteiro, estudante universitário.
 
 João é um apaixonado por esportes, mas como estudante universitário não tem muito dinheiro para gastar em atividades físicas. Ele está sempre procurando por opções gratuitas para se exercitar, como jogar futebol com amigos ou correr no parque. No entanto, muitas vezes ele acaba perdendo tempo procurando por lugares e horários disponíveis. João precisaria de um aplicativo que pudesse ajudá-lo a encontrar facilmente locais gratuitos para praticar esportes, com informações atualizadas sobre horários e disponibilidade.
 
@@ -54,7 +54,7 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228739247-8b9278c5-fdb4-45e1-aea8-8bda1ecb7baf.jpg" />
 
-### Maria, 35 anos, casada, mãe de dois filhos.
+### Maria Cecília, 35 anos, casada, mãe de dois filhos.
 
 Maria é uma profissional ocupada que tem pouco tempo livre para praticar esportes, mas ainda assim valoriza muito um estilo de vida saudável. Ela gosta de correr e fazer yoga, mas muitas vezes tem dificuldades em encontrar horários que se encaixem em sua agenda cheia. Além disso, ela não quer gastar muito dinheiro em academias ou aulas particulares. Maria precisaria de um aplicativo que pudesse ajudá-la a encontrar opções gratuitas de atividades físicas perto de sua casa ou trabalho, com informações sobre horários, níveis de dificuldade e equipamentos necessários.
 
@@ -63,9 +63,9 @@ Maria é uma profissional ocupada que tem pouco tempo livre para praticar esport
 
 <img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228739499-3fe7b90a-760b-430b-8324-cc7962b7d83e.jpg" />
 
-### Pedro, 22 anos, solteiro, recém-formado.
+### Marcos de Alcântara, 22 anos, solteiro, recém-formado.
 
-Pedro é um jovem que acabou de se formar na faculdade e está procurando emprego. Ele sempre foi uma pessoa ativa, praticando diversos esportes como futebol, basquete e natação. No entanto, agora que está sem dinheiro e sem plano de saúde, Pedro precisa encontrar opções gratuitas para se exercitar e manter sua saúde em dia. Ele gostaria de um aplicativo que pudesse ajudá-lo a encontrar opções gratuitas de atividades físicas perto de sua casa, com informações sobre horários e equipamentos necessários. Além disso, como ele está procurando emprego, seria útil se o aplicativo pudesse informar sobre eventos esportivos locais que ele pudesse participar para conhecer novas pessoas e fazer networking.
+Marcos é um jovem que acabou de se formar na faculdade e está procurando emprego. Ele sempre foi uma pessoa ativa, praticando diversos esportes como futebol, basquete e natação. No entanto, agora que está sem dinheiro e sem plano de saúde, Marcos precisa encontrar opções gratuitas para se exercitar e manter sua saúde em dia. Ele gostaria de um aplicativo que pudesse ajudá-lo a encontrar opções gratuitas de atividades físicas perto de sua casa, com informações sobre horários e equipamentos necessários. Além disso, como ele está procurando emprego, seria útil se o aplicativo pudesse informar sobre eventos esportivos locais que ele pudesse participar para conhecer novas pessoas e fazer networking.
 
 ## Histórias de usuário
 
@@ -75,6 +75,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Dr. Paulo Oliveira  | Emitir um relatório de atividades por filtros diversos | Analisar os dados para estudos |
 |Dr. Paulo Oliveira  | Divulgar os resultados dos estudos | Conscientizar os usuários para os benefícios da prática de esportes  |
+|João de Abreu | Encontrar locais que ofereçam atividades gratuitas perto de casa |Exercitar de forma regular e manter um estilo de vida saudável sem gastar muito dinheiro  |
+|João de Abreu | Ver as avaliações de outros usuários sobre os locais de esportes gratuitos | Escolher os melhores lugares para me exercitar e evitar perder tempo em locais ruins ou mal avaliados  |
+|Maria Cecília | Encontrar horários de atividades físicas gratuitas que se encaixem na minha agenda| Manter minha rotina de exercícios e cuidar da minha saúde sem prejudicar minhas obrigações profissionais e familiares   |
+|Maria Cecília | Encontrar atividades físicas que sejam apropriadas para o meu nível de habilidade e condicionamento físico| Para que eu possa evitar lesões e melhorar minha performance gradualmente. |
+|Marcos de Alcântara | Encontrar eventos esportivos locais | Conhecer novas pessoas e ampliar minha rede de contatos enquanto pratico atividades físicas |
+|Marcos de Alcântara | Criar grupos de amigos que estejam interessados em praticar esportes juntos em locais gratuitos | Para que possamos nos motivar mutuamente e ter uma rotina regular de exercícios  |
+Carlos Maia  Encontrar lugares gratuitos e seguros pra se exerci  Retomar a rotina saúdavel que tinha  antes
+
+
+
 
 ## Requisitos
 
