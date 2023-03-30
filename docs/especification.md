@@ -47,7 +47,8 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <img align="left" width="256" src="https://blogeducacaofisica.com.br/wp-content/uploads/2018/09/CAPAESPORTE-DEF-FISI.png" />
 
-### Joaquim Mariano, 58 anos
+### Joaquim Braga, 58 anos
+Joaquim é um Publicitário
 
 
 
