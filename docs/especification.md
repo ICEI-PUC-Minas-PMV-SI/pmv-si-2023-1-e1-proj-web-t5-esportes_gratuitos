@@ -21,6 +21,12 @@ Dr. Paulo Oliveira é um pesquisador renomado em sua área, que se dedica à pes
 Ana júlia é estudante de ensino médio e gosta de praticar esportes, principalmente futebol, mas não consegue praticar esse esporte com muita frequência porque não conhece outras meninas que também gostem de praticar futebol, outra dificuldade de Ana Júlia é achar um local que seja seguro para ela praticar esportes, sem que se sinta ameaçada de alguma forma ou seja assediada em algum momento.
 
 <br clear="left">
+<br/>
+<img align="left" width="256" src="https://this-person-does-not-exist.com/img/avatar-gen0ec119bba47709ffaca6c0f80c9cd71c.jpg" />
+
+### Pedro Almeida, 20 anos
+
+Pedro Almeida tem 20 anos e é um universitário que só quer saber de ficar em casa e usar o vídeo game como único meio de entretenimento, além de comer besteira não se importando com a saúde, e com isso desenvolveu obesidade nivel III. mesmo sabendo que essa doença causa vários problemas como por exemplo a diabete ele não fazia nada para alterar, por isso pessoas brincavam com seu fisíco e com isso afeta seu psicológico. E apesar disso ele acompanha campeonatos de vôlei e queria aprender a jogar. para mudar isso é preciso de um lugar acessível e sociavel para que pessoas pudessem ensinar a praticar esportes e ter amizades feitas através disso.
 
 ## Histórias de Usuários
 
