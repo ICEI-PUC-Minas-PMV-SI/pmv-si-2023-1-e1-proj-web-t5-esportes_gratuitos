@@ -8,11 +8,12 @@ Nesse sentido, a aplicação proposta pretende fornecer informações sobre grup
 
 ## Problema
 
-Fazer exercício físico ou praticar algum esporte traz benefícios enormes, não só em nível físico, mas também mental. Reduz o risco de sofrer doenças cardiovasculares, a pressão arterial e o estresse, ajuda a controlar o colesterol e nos faz descansar melhor. Entretanto, nos últimos anos a luta contra o sedentarismo se estagnou, conforme publicou a revista The Lancet em uma série de três artigos sobre o tema. Em nível global, os problemas decorrentes da falta de exercício físico e o sedentarismo são responsáveis por mais de cinco milhões de mortes por ano, além de acarretarem gastos sanitários superiores a 280 bilhões de reais ―dos quais mais de 160 bilhões provêm do setor público.(Alberto Quero,El País,2021).
+Ter um corpo ativo, seja praticando algum esporte ou fazendo qualquer atividade física, traz benefícios notáveis ao ser humano, como a redução do estresse, diminuição das chances de doenças cardiovasculares, aumento da autoestima e também há a socialização que um esporte pode proporcionar. Entretanto,ultimamente as pessoas parecem estar mais sedentárias do que nunca foram antes. Mundialmente, os problemas da falta da prática de atividades físicas correspondem a  cinco milhões de mortes por ano, além de acarretar gastos bilionários aos cofres públicos
 
-Segundo a publicação, o nível de atividade física nos adolescentes permanece estagnado desde 2012, e 80% dos jovens não seguem a recomendação da Organização Mundial da Saúde (OMS) de fazer uma hora de exercício físico por dia. Cerca de 40% dos estudantes nunca vão a pé para a escola, e 25% passam mais de três horas por dia sentados depois de assistirem às aulas e fazerem a lição de casa. (El País, 2021).
+De acordo, com a pesquisa, as pessoas mais sedentárias da sociedade são os mais jovens, onde a maioria dos adolescentes preferem fazer outras tarefas ao invés de manter um corpo ativo. Na maioria das vezes, as pessoas dessa faia etária passam a maior parte do seu tempo utilizando computadores e outros dispositivos que os deixam entretidos por várias horas.
 
-Os brasileiros entrevistados pela Ipsos citaram alguns motivos pelos quais não praticam exercícios físicos. Os principais motivos para a falta da prática são a falta de tempo (32%), seguido pela falta de dinheiro (21%), a falta de instalações nas proximidades de onde vive (13%), a falta de conhecidos para fazer companhia na prática (13%) e o clima muito quente ou muito frio (8%).(CNN,2021)
+No Brasil, as pessoas que foram entrevistadas falaram sobre os motivos do porquê não conseguem manter uma rotina saudável com a prática de exercícios físicos, os principais fatores são a falta de tempo, falta de dinheiro, infraestrutura pública ruim/péssima, falta de grupos com os quais possam praticar um esporte em conjunto e também o clima.
+
 
 ## Objetivos
 
