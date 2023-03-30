@@ -45,7 +45,7 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <br>
 
-<img align="left" width="256" src="https://img.freepik.com/fotos-premium/homem-idoso-serio-no-terno_120897-268.jpg?w=360" />
+<img align="left" width="256" src="https://p0.pikist.com/photos/47/410/old-man-man-face-senior-older-weathered-age-aging-experienced.jpg" />
 
 ### Joaquim Martins, 58 anos
 
