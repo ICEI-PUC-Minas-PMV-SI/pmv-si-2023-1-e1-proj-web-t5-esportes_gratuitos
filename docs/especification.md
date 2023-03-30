@@ -42,7 +42,11 @@ Pedro Almeida tem 20 anos e é um universitário que só quer saber de ficar em 
 João é um apaixonado por esportes, mas como estudante universitário não tem muito dinheiro para gastar em atividades físicas. Ele está sempre procurando por opções gratuitas para se exercitar, como jogar futebol com amigos ou correr no parque. No entanto, muitas vezes ele acaba perdendo tempo procurando por lugares e horários disponíveis. João precisaria de um aplicativo que pudesse ajudá-lo a encontrar facilmente locais gratuitos para praticar esportes, com informações atualizadas sobre horários e disponibilidade.
 
 <br clear="left">
-<br>
+
+
+<img align="left" width="256" src="https://coexistir.com.br/wp-content/uploads/2017/10/deficientes-esportes3.jpg' />
+
+### Joaquim Mariano, 58 anos
 
 ## Histórias de usuário
 
