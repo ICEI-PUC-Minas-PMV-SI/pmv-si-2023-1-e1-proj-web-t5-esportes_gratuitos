@@ -28,7 +28,9 @@ Ana júlia é estudante de ensino médio e gosta de praticar esportes, principal
 
 Pedro Almeida tem 20 anos e é um universitário que só quer saber de ficar em casa e usar o vídeo game como único meio de entretenimento, além de comer besteira não se importando com a saúde, e com isso desenvolveu obesidade nivel III. mesmo sabendo que essa doença causa vários problemas como por exemplo a diabete ele não fazia nada para alterar, por isso pessoas brincavam com seu fisíco e com isso afeta seu psicológico. E apesar disso ele acompanha campeonatos de vôlei e queria aprender a jogar. para mudar isso é preciso de um lugar acessível e sociavel para que pessoas pudessem ensinar a praticar esportes e ter amizades feitas através disso.
 
-## Histórias de Usuários
+Carlos,32 anos
+
+Carlos tem 32 anos e é funcionário do banco,ele  quer passar a ter hábitos saudáveis e retomar a fazer atividades físicas,quando mais novo costumava sempre jogar futebol mas com o tempo foi perdendo o costume.Carlos tem dificuldade em encontrar locais gratuitos e seguros pra se exercitar ou praticar algum esporte e pessoas que tenham o mesmo intuito.Carlos quer encontrar companhia para realizar essas atividades  e lugares que tenham uma boa estrutura e segurança
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
