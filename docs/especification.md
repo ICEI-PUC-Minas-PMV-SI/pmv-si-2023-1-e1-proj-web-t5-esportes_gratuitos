@@ -47,8 +47,9 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <img align="left" width="256" src="https://blogeducacaofisica.com.br/wp-content/uploads/2018/09/CAPAESPORTE-DEF-FISI.png" />
 
-### Joaquim Braga, 58 anos
-Joaquim é um Publicitário
+### Joaquim Carlos Martins, 58 anos
+
+Joaquim Carlos Martins é um escritor português,Ele tinha 20 anos de idade quando soreu um acidente que prejudicaram a mobilidade de suas mãos,Logo após, devido a problemas físicos,precisou mudar pra EUA para melhora de seu tratamento.Com dificuldades de adptação na nova cidade ele travavam lutas diárias Por falta de infraestrutura acessível,perdendo a oportunidade de manter hábitos saudáveis.
 
 
 
@@ -66,7 +67,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |João de Abreu | Encontrar locais que ofereçam atividades gratuitas perto de casa |Exercitar de forma regular e manter um estilo de vida saudável sem gastar muito dinheiro  |
 |João de Abreu | Ver as avaliações de outros usuários sobre os locais de esportes gratuitos | Escolher os melhores lugares para me exercitar e evitar perder tempo em locais ruins ou mal avaliados  |
 |Ana Júlia | Encontrar outras meninas que possuem os mesmos gostos para esportes do que ela e encontrar locais seguros para qualquer mulher praticar esportes | praticar seus esportes favoritos e manter uma rotina saudável
-|Pedro Almeida | Encontrar lugares que possa aprender a praticar esportes | utilizar o esporte como estratégia de emagrecimento |
+|Joaquim Braga | Encontrar lugares c | utilizar o esporte como estratégia de emagrecimento |
 
 
 
