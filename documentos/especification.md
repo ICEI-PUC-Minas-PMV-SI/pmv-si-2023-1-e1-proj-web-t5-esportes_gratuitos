@@ -82,7 +82,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Marcos de Alcântara | Encontrar eventos esportivos locais | Conhecer novas pessoas e ampliar minha rede de contatos enquanto pratico atividades físicas |
 |Marcos de Alcântara | Criar grupos de amigos que estejam interessados em praticar esportes juntos em locais gratuitos | Para que possamos nos motivar mutuamente e ter uma rotina regular de exercícios  |
 |Carlos Maia | Encontrar locais seguros e gratuitos para se exercitar | Retomar a rotina saudável que tinha antes |
-|Carlos Maia | Encontrar um grupo de amigos dispostos a acomapnhá-lo |
+|Carlos Maia | Encontrar um grupo de amigos dispostos a acomapnhá-lo  a jogar futebol em quadras gratuitas | Voltar a fazer o esporte que mais gostava quando era jovem |
 |Ana Júlia | Encontrar outras meninas que possuem os mesmos gostos para esportes do que ela e encontrar locais seguros para qualquer mulher praticar esportes | praticar seus esportes favoritos e manter uma rotina saudável
 
 
