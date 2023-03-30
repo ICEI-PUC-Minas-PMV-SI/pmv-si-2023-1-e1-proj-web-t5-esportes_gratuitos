@@ -45,7 +45,7 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <br>
 
-<img align="left" width="256" src="https://blogeducacaofisica.com.br/wp-content/uploads/2018/09/CAPAESPORTE-DEF-FISI.png" />
+<img align="left" width="256" src="https://img.freepik.com/fotos-premium/homem-idoso-serio-no-terno_120897-268.jpg?w=360" />
 
 ### Joaquim Martins, 58 anos
 
