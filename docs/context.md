@@ -33,6 +33,11 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
+Desenvolvendo uma aplicação que visa fornecer informações e registros de atividades físicas gratuitas disponíveis na cidade para um público-alvo diverso, incluindo pessoas de todas as idades, gêneros e níveis de renda, bem como pessoas com deficiências ou que procuram prevenir doenças crônicas não transmissíveis poderemos ajudar a promover a saúde e o bem-estar de muitas pessoas que, de outra forma, poderiam ter dificuldades em encontrar e acessar atividades físicas gratuitas.  Dessa forma, espera-se que mais pessoas sejam incentivadas a adotar um estilo de vida ativo e saudável, contribuindo para a prevenção de doenças crônicas e a promoção do bem-estar geral.
+
+A facilidade de uso e a acessibilidade são fundamentais para o sucesso do projeto, por isso, criar uma interface simples e intuitiva que possa ser facilmente navegada por usuários de diferentes idades e níveis de habilidade será um desafio que nos levará a agregar conhecimentos em design de interface do usuário para atender as necessidades de um público alvo amplo, além de desenvolver nossas habilidades de desenvolvimento de software, análise de requisitos, gerenciamento de projetos , habilidades de comunicação e resolução de problemas.
+
+
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
