@@ -49,7 +49,7 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 ### Joaquim Martins, 58 anos
 
-Joaquim Martins é um escritor português,ele tinha 20 anos de idade quando sofreu um acidente que prejudicaram a mobilidade de suas mãos,logo após, devido a problemas físicos precisou mudar pra EUA. Com dificuldades de adptação na nova cidade ele travava lutas diárias, seu medico recomendou praticar atividades físicas para avanço de seu tratamento
+Joaquim Martins é um escritor português,ele tinha 20 anos de idade quando sofreu um acidente que prejudicaram a mobilidade de suas mãos,logo após, devido a problemas físicos precisou mudar pra EUA. Com dificuldades de adptação na nova cidade ele travava lutas diárias, seu medico recomendou praticar atividades físicas para avanço de seu tratamento,com objetivo de adotar hábitos saudaves no seu dia a dia Joaquim proucura meios de informações quem disponibilizam locais acessiveis para PCD.
 
 
 
