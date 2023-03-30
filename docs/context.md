@@ -14,18 +14,10 @@ Segundo a publicação, o nível de atividade física nos adolescentes permanece
 
 Os brasileiros entrevistados pela Ipsos citaram alguns motivos pelos quais não praticam exercícios físicos. Os principais motivos para a falta da prática são a falta de tempo (32%), seguido pela falta de dinheiro (21%), a falta de instalações nas proximidades de onde vive (13%), a falta de conhecidos para fazer companhia na prática (13%) e o clima muito quente ou muito frio (8%).(CNN,2021)
 
-Portanto, torna-se necessário uma aplicação que ajude a resolver essa problemática no Brasil e no mundo, fazendo com que a prática de atividades físicas seja incentivada e democratizada, com isso teremos uma população mais saudável tanto física quanto mentalmente e também podendo gerar uma economia de bilhões de reais aos cofres públicos do Brasil.
-
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
-a atividade física é fundamental para promover a saúde e o bem-estar e é essencial para ajudar as pessoas a terem uma vida mais saudável.
-Com base nos problemas enfrentados por quem já pratica ou deseja praticar determinado esporte , o pricipal objetivo do software é fornecer por meio de registros atividade física para todos disponíveis nas cidades, essa ferramenta  também vai facilita encontrar e ingressar não so em grupos esportivos com diferentes modalidades e sim tambem,aulas de capoeira, hip hop, hidroginástica, peteca,alongamentos, ioga ,ginástica ,modalidades adaptadas PCD gratuitamente.
+Segundo a análise a atividade física é fundamental para promover a saúde e o bem-estar e é essencial para ajudar as pessoas a terem uma vida mais saudável.
+Com base nos problemas enfrentados por quem já pratica ou deseja praticar determinado esporte , o pricipal objetivo do software é fornecer uma aplicaçã que ajude a resolver essa problemática no Brasil e no mundo , facilitando encontrar e ingressar não so em grupos esportivos com diferentes modalidades e sim tambem,aulas de capoeira, hip hop, hidroginástica, peteca,alongamentos, ioga ,ginástica ,modalidades adaptadas PCD gratuitamente.
 
 
 ## Justificativa
@@ -33,15 +25,6 @@ Com base nos problemas enfrentados por quem já pratica ou deseja praticar deter
 Desenvolvendo uma aplicação que visa fornecer informações e registros de atividades físicas gratuitas disponíveis na cidade para um público-alvo diverso, incluindo pessoas de todas as idades, gêneros e níveis de renda, bem como pessoas com deficiências ou que procuram prevenir doenças crônicas não transmissíveis poderemos ajudar a promover a saúde e o bem-estar de muitas pessoas que, de outra forma, poderiam ter dificuldades em encontrar e acessar atividades físicas gratuitas.  Dessa forma, espera-se que mais pessoas sejam incentivadas a adotar um estilo de vida ativo e saudável, contribuindo para a prevenção de doenças crônicas e a promoção do bem-estar geral.
 
 A facilidade de uso e a acessibilidade são fundamentais para o sucesso do projeto, por isso, criar uma interface simples e intuitiva que possa ser facilmente navegada por usuários de diferentes idades e níveis de habilidade será um desafio que nos levará a agregar conhecimentos em design de interface do usuário para atender as necessidades de um público alvo amplo, além de desenvolver nossas habilidades de desenvolvimento de software, análise de requisitos, gerenciamento de projetos , habilidades de comunicação e resolução de problemas.
-
-
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
