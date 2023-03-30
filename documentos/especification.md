@@ -28,10 +28,6 @@ Ana júlia é estudante de ensino médio e gosta de praticar esportes, principal
 
 Pedro Almeida tem 20 anos e é um universitário que só quer saber de ficar em casa e usar o vídeo game como único meio de entretenimento, além de comer besteira não se importando com a saúde, e com isso desenvolveu obesidade nivel III. mesmo sabendo que essa doença causa vários problemas como por exemplo a diabete ele não fazia nada para alterar, por isso pessoas brincavam com seu fisíco e com isso afeta seu psicológico. E apesar disso ele acompanha campeonatos de vôlei e queria aprender a jogar. para mudar isso é preciso de um lugar acessível e sociavel para que pessoas pudessem ensinar a praticar esportes e ter amizades feitas através disso. 
 
-< br claro = "esquerda" >
-<br/>
-< img  align = "esquerda" largura + "256" src =  ![download](https://user-images.githubusercontent.com/112734941/228719891-db9dc765-86fb-4887-85e4-53be140dcd0f.jpg)
-
 
 Carlos,32 anos
 
