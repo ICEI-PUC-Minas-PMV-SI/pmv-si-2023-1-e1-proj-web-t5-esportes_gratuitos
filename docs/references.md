@@ -10,3 +10,13 @@
 
 **[5]** - _WHO. **Global action plan on physical activity 2018-2030: more active people for a healthier world**. Genebra: WHO, 2018._
 
+**[6]** - Quero. **Falta de exercício físico gera nova ameaça mundial, alerta estudo**. Alberto Quero: El País,2021.  Disponível em: 
+https://brasil.elpais.com/ciencia/2021-08-16/falta-de-exercicio-fisico-gera-nova-ameaca-mundial-alerta-estudo.html
+ . Acesso em: 23 mar. 2023.
+ 
+ **[7]** - CNN. **Brasil lidera ranking de países que menos fazem exercícios físicos**. CNN,2021.  Disponível em: 
+https://www.cnnbrasil.com.br/saude/brasil-lidera-ranking-de-paises-que-menos-fazem-exercicios-fisicos/
+ . Acesso em: 25 mar. 2023.
+ 
+ 
+
