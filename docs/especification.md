@@ -43,8 +43,6 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <br clear="left">
 
-### Joaquim Mariano, 58 anos
-
 ## Histórias de usuário
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
