@@ -32,17 +32,36 @@ Ana júlia é estudante de ensino médio e gosta de praticar esportes, principal
 
 Pedro Almeida tem 20 anos e é um universitário que só quer saber de ficar em casa e usar o vídeo game como único meio de entretenimento, além de comer besteira não se importando com a saúde, e com isso desenvolveu obesidade nivel III. mesmo sabendo que essa doença causa vários problemas como por exemplo a diabete ele não fazia nada para alterar, por isso pessoas brincavam com seu fisíco e com isso afeta seu psicológico. E apesar disso ele acompanha campeonatos de vôlei e queria aprender a jogar. para mudar isso é preciso de um lugar acessível e sociavel para que pessoas pudessem ensinar a praticar esportes e ter amizades feitas através disso. 
 
-### Carlos,32 anos
+<br clear="left">
+
+<img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228737884-59f40c4f-4eea-432b-8e57-5facb5800184.jpg" />
+
+### Carlos, 32 anos
 
 Carlos tem 32 anos e é funcionário do banco,ele  quer passar a ter hábitos saudáveis e retomar a fazer atividades físicas,quando mais novo costumava sempre jogar futebol mas com o tempo foi perdendo o costume.Carlos tem dificuldade em encontrar locais gratuitos e seguros pra se exercitar ou praticar algum esporte e pessoas que tenham o mesmo intuito.Carlos quer encontrar companhia para realizar essas atividades  e lugares que tenham uma boa estrutura e segurança
+
+<br clear="left">
+<br>
+
+<img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228738261-76dca216-4c94-45ea-af90-44ee7919059a.jpg" />
 
 ### João de Abreu, 28 anos, solteiro, estudante universitário.
 
 João é um apaixonado por esportes, mas como estudante universitário não tem muito dinheiro para gastar em atividades físicas. Ele está sempre procurando por opções gratuitas para se exercitar, como jogar futebol com amigos ou correr no parque. No entanto, muitas vezes ele acaba perdendo tempo procurando por lugares e horários disponíveis. João precisaria de um aplicativo que pudesse ajudá-lo a encontrar facilmente locais gratuitos para praticar esportes, com informações atualizadas sobre horários e disponibilidade.
 
+<br clear="left">
+<br>
+
+<img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228739247-8b9278c5-fdb4-45e1-aea8-8bda1ecb7baf.jpg" />
+
 ### Maria Cecília, 35 anos, casada, mãe de dois filhos.
 
 Maria é uma profissional ocupada que tem pouco tempo livre para praticar esportes, mas ainda assim valoriza muito um estilo de vida saudável. Ela gosta de correr e fazer yoga, mas muitas vezes tem dificuldades em encontrar horários que se encaixem em sua agenda cheia. Além disso, ela não quer gastar muito dinheiro em academias ou aulas particulares. Maria precisaria de um aplicativo que pudesse ajudá-la a encontrar opções gratuitas de atividades físicas perto de sua casa ou trabalho, com informações sobre horários, níveis de dificuldade e equipamentos necessários.
+
+<br clear="left">
+<br>
+
+<img align="left" width="256" src="https://user-images.githubusercontent.com/45612016/228739499-3fe7b90a-760b-430b-8324-cc7962b7d83e.jpg" />
 
 ### Marcos de Alcântara, 22 anos, solteiro, recém-formado.
 
@@ -54,7 +73,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Dr. Paulo Oliveira  | Emitir um relatório de usuários por filtros diversos | Analisar os dados para estudos |
+|Dr. Paulo Oliveira  | Emitir um relatório de atividades por filtros diversos | Analisar os dados para estudos |
 |Dr. Paulo Oliveira  | Divulgar os resultados dos estudos | Conscientizar os usuários para os benefícios da prática de esportes  |
 |João de Abreu | Encontrar locais que ofereçam atividades gratuitas perto de casa |Exercitar de forma regular e manter um estilo de vida saudável sem gastar muito dinheiro  |
 |João de Abreu | Ver as avaliações de outros usuários sobre os locais de esportes gratuitos | Escolher os melhores lugares para me exercitar e evitar perder tempo em locais ruins ou mal avaliados  |
@@ -77,31 +96,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|RF-001| Permitir que o usuário cadastre-se na plataforma | ALTA |  |
+|RF-002| Permitir que o usuário acesse a plataforma como convidado| ALTA |  |
+|RF-003| Permitir que o usuário cadastre novos grupos esportivos | ALTA |  |
+|RF-004| A aplicação deve ser integrada com uma API de localização | ALTA | |
+|RF-005| Permitir que o usuário busque por grupos numa determinada área | ALTA | |
+|RF-006| Permitir que o usuário integre seus grupos com as redes sociais | MÉDIA | |
+|RF-007| Permitir que o usuário emita relatórios de atividades | MÉDIA | |
+|RF-008| Permitir que o usuário avalie os grupos | MÉDIA | |
+|RF-009| A aplicação deve ser acessível para todos os públicos | MÉDIA | |
+|RF-010| Notificar o usuário de grupos criados em sua área | BAIXA | |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve ser responsivo para rodar em diferentes resoluções | ALTA | 
+|RNF-002| O sistema deve ser compatível com os navegadores mais utilizados | MÉDIA | 
+|RNF-003| O sistema deve possuir uma interface amigável e intuitiva | MÉDIA | 
 
 ## Restrições
 
@@ -112,3 +124,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| A aplicação deve ser regida pela LGPD                 |
+|04| A equipe de desenvolvimento está limitada a 6 integrantes |
