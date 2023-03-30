@@ -69,13 +69,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário cadastre-se na plataforma | ALTA |  |
-|RF-002| Permitir que o usuário acesse a plataforma como convidado| ALTA |  |
-|RF-003| Permitir que o usuário cadastre novos grupos esportivos | ALTA |  |
-|RF-004| A aplicação deve ser integrada com uma API de localização | ALTA | |
-|RF-005| Permitir que o usuário busque por grupos numa determinada área | ALTA | |
-|RF-006| Permitir que o usuário integre seus grupos com as redes sociais | MÉDIA | |
-|RF-007| Permitir que o usuário emita relatórios de atividades | MÉDIA | |
-|RF-008| Permitir que o usuário avalie os grupos | MÉDIA | |
+|RF-002| Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado | ALTA |  |
+|RF-003| Permitir que o usuário (cadastrado) registre novos grupos esportivos, indicando local,horário e acessibilidade| ALTA |  |
+|RF-004| Permitir que o usuário busque por grupos numa determinada área | ALTA | |
+|RF-005| Permitir que o usuário (cadastrado) demonstre interesse em determinado esporte | ALTA | |
+|RF-006| Permitir que o usuário (cadastrado) integre seus grupos com as redes sociais | MÉDIA | |
+|RF-007| Permitir que o usuário (cadastrado) emita relatórios de demanda de esportes | MÉDIA | |
+|RF-008| Permitir que o usuário (cadastrado) avalie os grupos | MÉDIA | |
 |RF-009| A aplicação deve ser acessível para todos os públicos | MÉDIA | |
 |RF-010| Notificar o usuário de grupos criados em sua área | BAIXA | |
 
@@ -84,8 +84,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em diferentes resoluções | ALTA | 
-|RNF-002| O sistema deve ser compatível com os navegadores mais utilizados | MÉDIA | 
-|RNF-003| O sistema deve possuir uma interface amigável e intuitiva | MÉDIA | 
+|RNF-002| O sistema deve ser compatível com os navegadores mais utilizados | ALTA | 
+|RNF-003| O sistema deve possuir uma interface amigável e intuitiva | ALTA | 
+|RNF-004| A aplicação deve ser integrada com uma API de localização | ALTA | 
+|RNF-005| A aplicação deve ser integrada com uma API de redes sociais | MÉDIA | 
+|RNF-006| A aplicação deve ser regida pela LGPD | ALTA | 
 
 ## Restrições
 
@@ -95,5 +98,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| A aplicação deve ser regida pela LGPD                 |
-|04| A equipe de desenvolvimento está limitada a 6 integrantes |
+|03| A equipe de desenvolvimento está limitada a 6 integrantes |
