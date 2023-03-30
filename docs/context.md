@@ -24,12 +24,9 @@ Portanto, torna-se necessário uma aplicação que ajude a resolver essa problem
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+a atividade física é fundamental para promover a saúde e o bem-estar e é essencial para ajudar as pessoas a terem uma vida mais saudável.
+Com base nos problemas enfrentados por quem já pratica ou deseja praticar determinado esporte , o pricipal objetivo do software é fornecer por meio de registros atividade física para todos disponíveis nas cidades, essa ferramenta  também vai facilita encontrar e ingressar não so em grupos esportivos com diferentes modalidades e sim tambem,aulas de capoeira, hip hop, hidroginástica, peteca,alongamentos, ioga ,ginástica ,modalidades adaptadas PCD gratuitamente.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
