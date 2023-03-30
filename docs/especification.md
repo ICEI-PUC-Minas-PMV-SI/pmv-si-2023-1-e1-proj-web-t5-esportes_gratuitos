@@ -43,9 +43,6 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <br clear="left">
 
-
-<img align="left" width="256" src="https://coexistir.com.br/wp-content/uploads/2017/10/deficientes-esportes3.jpg' />
-
 ### Joaquim Mariano, 58 anos
 
 ## Histórias de usuário
