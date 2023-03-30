@@ -47,10 +47,9 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <img align="left" width="256" src="https://img.freepik.com/fotos-gratis/retrato-do-professor-mais-velho-posando-isolado-no-branco_155003-41567.jpg" />
 
-### Joaquim Martins, 58 anos
+### Joaquim Carlos Martins, 58 anos
 
-Joaquim Martins é um escritor português,ele tinha 20 anos de idade quando sofreu um acidente que prejudicaram a mobilidade de suas mãos,logo após, devido a problemas físicos precisou mudar pra EUA. Com dificuldades de adptação na nova cidade ele travava lutas diárias, seu medico recomendou praticar atividades físicas para avanço de seu tratamento,com objetivo de adotar hábitos saudaves no seu dia a dia Joaquim proucura meios de informações quem disponibilizam locais acessiveis para PCD.
-
+Joaquim Carlos Martins é um escritor português, ele tinha 20 anos de idade quando sofreu um acidente que prejudicaram a mobilidade de suas mãos, logo após, devido a problemas físicos precisou mudar pra EUA. Com dificuldades de adaptação na nova cidade ele travava lutas diárias, seu medico recomendou praticar atividades físicas para avanço de seu tratamento, com objetivo de adotar hábitos saudáveis no seu dia a dia Joaquim procura meios de informações quem disponibilizam locais acessíveis para PCD.
 
 
 <br clear="left">
