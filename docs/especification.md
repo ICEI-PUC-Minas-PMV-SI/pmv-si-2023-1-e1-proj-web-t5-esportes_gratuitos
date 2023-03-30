@@ -66,7 +66,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |João de Abreu | Encontrar locais que ofereçam atividades gratuitas perto de casa |Exercitar de forma regular e manter um estilo de vida saudável sem gastar muito dinheiro  |
 |João de Abreu | Ver as avaliações de outros usuários sobre os locais de esportes gratuitos | Escolher os melhores lugares para me exercitar e evitar perder tempo em locais ruins ou mal avaliados  |
 |Ana Júlia | Encontrar outras meninas que possuem os mesmos gostos para esportes do que ela e encontrar locais seguros para qualquer mulher praticar esportes | praticar seus esportes favoritos e manter uma rotina saudável
-|Joaquim Braga | Encontrar lugares acessíveis para PCD | utilizar o esporte como qualidade de vida |
+|Joaquim Carlos Martins | Encontrar lugares acessíveis para PCD | utilizar o esporte como qualidade de vida |
 
 
 
@@ -84,10 +84,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Permitir que o usuário (cadastrado) registre novos grupos esportivos, indicando local,horário e acessibilidade| ALTA |  |
 |RF-004| Permitir que o usuário busque por grupos numa determinada área | ALTA | |
 |RF-005| Permitir que o usuário (cadastrado) demonstre interesse em determinado esporte | ALTA | |
-|RF-006| Permitir que o usuário (cadastrado) integre seus grupos com as redes sociais | MÉDIA | |
-|RF-007| Permitir que o usuário (cadastrado) emita relatórios de demanda de esportes | MÉDIA | |
-|RF-008| Permitir que o usuário (cadastrado) avalie os grupos | MÉDIA | |
-|RF-009| A aplicação deve ser acessível para todos os públicos | MÉDIA | |
+|RF-006| A aplicação deve ser acessível para todos os públicos | ALTA | |
+|RF-007| Permitir que o usuário (cadastrado) integre seus grupos com as redes sociais | MÉDIA | |
+|RF-008| Permitir que o usuário (cadastrado) emita relatórios de demanda de esportes | MÉDIA | |
+|RF-009| Permitir que o usuário (cadastrado) avalie os grupos | MÉDIA | |
 |RF-010| Notificar o usuário de grupos criados em sua área | BAIXA | |
 
 ### Requisitos não Funcionais
