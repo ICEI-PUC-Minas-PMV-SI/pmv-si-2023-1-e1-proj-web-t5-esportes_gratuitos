@@ -47,9 +47,9 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <img align="left" width="256" src="https://blogeducacaofisica.com.br/wp-content/uploads/2018/09/CAPAESPORTE-DEF-FISI.png" />
 
-### Joaquim Carlos Martins, 58 anos
+### Joaquim Martins, 58 anos
 
-Joaquim Carlos Martins é um escritor português,Ele tinha 20 anos de idade quando soreu um acidente que prejudicaram a mobilidade de suas mãos,Logo após, devido a problemas físicos,precisou mudar pra EUA para melhora de seu tratamento.Com dificuldades de adptação na nova cidade ele travavam lutas diárias Por falta de infraestrutura acessível,perdendo a oportunidade de manter hábitos saudáveis.
+Joaquim Martins é um escritor português,ele tinha 20 anos de idade quando sofreu um acidente que prejudicaram a mobilidade de suas mãos,logo após, devido a problemas físicos precisou mudar pra EUA. Com dificuldades de adptação na nova cidade ele travava lutas diárias, seu medico recomendou praticar atividades físicas para avanço de seu tratamento
 
 
 
