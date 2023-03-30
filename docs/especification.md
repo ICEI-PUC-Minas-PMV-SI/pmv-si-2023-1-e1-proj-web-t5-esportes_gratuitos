@@ -30,7 +30,7 @@ Ana júlia é estudante de ensino médio e gosta de praticar esportes, principal
 
 ### Pedro Almeida, 20 anos
 
-Pedro Almeida tem 20 anos e é um universitário que só quer saber de ficar em casa e usar o vídeo game como único meio de entretenimento, além de comer besteira não se importando com a saúde, e com isso desenvolveu obesidade nivel III. mesmo sabendo que essa doença causa vários problemas como por exemplo a diabete ele não fazia nada para alterar, por isso pessoas brincavam com seu fisíco e com isso afeta seu psicológico. E apesar disso ele acompanha campeonatos de vôlei e queria aprender a jogar. para mudar isso é preciso de um lugar acessível e sociavel para que pessoas pudessem ensinar a praticar esportes e ter amizades feitas através disso. 
+Pedro Almeida tem 20 anos e é um universitário que só quer saber de ficar em casa e usar o vídeo game como único meio de entretenimento, além de comer besteira não se importando com a saúde, e com isso desenvolveu obesidade nivel III. mesmo sabendo que essa doença causa vários problemas como por exemplo a diabete ele não faz nada para alterar, por isso pessoas brincam com seu fisíco e isso afeta seu psicológico. E apesar disso ele acompanha campeonatos de vôlei e quer aprender a jogar. para mudar isso é preciso de um lugar acessível e sociavel para que pessoas pudessem ensinar a praticar esportes e ter amizades feitas através disso. 
 
 <br clear="left">
 
@@ -84,7 +84,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Carlos Maia | Encontrar locais seguros e gratuitos para se exercitar | Retomar a rotina saudável que tinha antes |
 |Carlos Maia | Encontrar um grupo de amigos dispostos a acomapnhá-lo  a jogar futebol em quadras gratuitas | Voltar a fazer o esporte que mais gostava quando era jovem |
 |Ana Júlia | Encontrar outras meninas que possuem os mesmos gostos para esportes do que ela e encontrar locais seguros para qualquer mulher praticar esportes | praticar seus esportes favoritos e manter uma rotina saudável
-
+|Pedro Almeida | Encontrar lugares que possa aprender a praticar esportes | utilizar o esporte como estratégia de emagrecimento |
 
 
 
