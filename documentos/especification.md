@@ -44,9 +44,9 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 Maria é uma profissional ocupada que tem pouco tempo livre para praticar esportes, mas ainda assim valoriza muito um estilo de vida saudável. Ela gosta de correr e fazer yoga, mas muitas vezes tem dificuldades em encontrar horários que se encaixem em sua agenda cheia. Além disso, ela não quer gastar muito dinheiro em academias ou aulas particulares. Maria precisaria de um aplicativo que pudesse ajudá-la a encontrar opções gratuitas de atividades físicas perto de sua casa ou trabalho, com informações sobre horários, níveis de dificuldade e equipamentos necessários.
 
-### Pedro de Alcântara, 22 anos, solteiro, recém-formado.
+### Marcos de Alcântara, 22 anos, solteiro, recém-formado.
 
-Pedro é um jovem que acabou de se formar na faculdade e está procurando emprego. Ele sempre foi uma pessoa ativa, praticando diversos esportes como futebol, basquete e natação. No entanto, agora que está sem dinheiro e sem plano de saúde, Pedro precisa encontrar opções gratuitas para se exercitar e manter sua saúde em dia. Ele gostaria de um aplicativo que pudesse ajudá-lo a encontrar opções gratuitas de atividades físicas perto de sua casa, com informações sobre horários e equipamentos necessários. Além disso, como ele está procurando emprego, seria útil se o aplicativo pudesse informar sobre eventos esportivos locais que ele pudesse participar para conhecer novas pessoas e fazer networking.
+Marcos é um jovem que acabou de se formar na faculdade e está procurando emprego. Ele sempre foi uma pessoa ativa, praticando diversos esportes como futebol, basquete e natação. No entanto, agora que está sem dinheiro e sem plano de saúde, Marcos precisa encontrar opções gratuitas para se exercitar e manter sua saúde em dia. Ele gostaria de um aplicativo que pudesse ajudá-lo a encontrar opções gratuitas de atividades físicas perto de sua casa, com informações sobre horários e equipamentos necessários. Além disso, como ele está procurando emprego, seria útil se o aplicativo pudesse informar sobre eventos esportivos locais que ele pudesse participar para conhecer novas pessoas e fazer networking.
 
 ## Histórias de usuário
 
@@ -60,8 +60,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |João de Abreu | Ver as avaliações de outros usuários sobre os locais de esportes gratuitos | Escolher os melhores lugares para me exercitar e evitar perder tempo em locais ruins ou mal avaliados  |
 |Maria Cecília | Encontrar horários de atividades físicas gratuitas que se encaixem na minha agenda| Manter minha rotina de exercícios e cuidar da minha saúde sem prejudicar minhas obrigações profissionais e familiares   |
 |Maria Cecília | Encontrar atividades físicas que sejam apropriadas para o meu nível de habilidade e condicionamento físico| Para que eu possa evitar lesões e melhorar minha performance gradualmente. |
-|Pedro de Alcântara | Encontrar eventos esportivos locais | Conhecer novas pessoas e ampliar minha rede de contatos enquanto pratico atividades físicas |
-|Pedro de Alcântara | Criar grupos de amigos que estejam interessados em praticar esportes juntos em locais gratuitos | Para que possamos nos motivar mutuamente e ter uma rotina regular de exercícios  |
+|Marcos de Alcântara | Encontrar eventos esportivos locais | Conhecer novas pessoas e ampliar minha rede de contatos enquanto pratico atividades físicas |
+|Marcos de Alcântara | Criar grupos de amigos que estejam interessados em praticar esportes juntos em locais gratuitos | Para que possamos nos motivar mutuamente e ter uma rotina regular de exercícios  |
 
 
 
