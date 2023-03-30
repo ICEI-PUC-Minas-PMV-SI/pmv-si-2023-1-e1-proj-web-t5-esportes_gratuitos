@@ -62,6 +62,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Maria Cecília | Encontrar atividades físicas que sejam apropriadas para o meu nível de habilidade e condicionamento físico| Para que eu possa evitar lesões e melhorar minha performance gradualmente. |
 |Marcos de Alcântara | Encontrar eventos esportivos locais | Conhecer novas pessoas e ampliar minha rede de contatos enquanto pratico atividades físicas |
 |Marcos de Alcântara | Criar grupos de amigos que estejam interessados em praticar esportes juntos em locais gratuitos | Para que possamos nos motivar mutuamente e ter uma rotina regular de exercícios  |
+Carlos Maia  Encontrar lugares gratuitos e seguros pra se exerci  Retomar a rotina saúdavel que tinha  antes
 
 
 
