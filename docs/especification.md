@@ -45,7 +45,7 @@ João é um apaixonado por esportes, mas como estudante universitário não tem 
 
 <br>
 
-<img align="left" width="256" src="https://p0.pikist.com/photos/47/410/old-man-man-face-senior-older-weathered-age-aging-experienced.jpg" />
+<img align="left" width="256" src="https://img.freepik.com/fotos-gratis/retrato-do-professor-mais-velho-posando-isolado-no-branco_155003-41567.jpg" />
 
 ### Joaquim Martins, 58 anos
 
