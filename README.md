@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Bruno Taveira da Rocha
 * Raissila Gomes da Silva
-* Nome completo do aluno 3
+* Gustavo Silva Rossetti
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
