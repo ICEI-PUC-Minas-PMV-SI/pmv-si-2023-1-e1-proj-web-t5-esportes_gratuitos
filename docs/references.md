@@ -12,7 +12,7 @@ https://www.cnnbrasil.com.br/saude/brasil-lidera-ranking-de-paises-que-menos-faz
 
 **[5]** - _PAULA, T. R. et al. **Efetividade de aplicativos móveis para mudanças comportamentais em saúde: revisão sistemática**. Rev Rene, v. 21, p. 70, 2020. Disponível em: http://www.repositorio.ufc.br/handle/riufc/53169. Acesso em: 1 abr. 2023._
 
-**[6]** - _QUERO. **Falta de exercício físico gera nova ameaça mundial, alerta estudo**. Alberto Quero: El País,2021.  Disponível em: 
+**[6]** - _QUERO, A. **Falta de exercício físico gera nova ameaça mundial, alerta estudo**. Alberto Quero: El País,2021.  Disponível em: 
 https://brasil.elpais.com/ciencia/2021-08-16/falta-de-exercicio-fisico-gera-nova-ameaca-mundial-alerta-estudo.html
  . Acesso em: 23 mar. 2023._
  
