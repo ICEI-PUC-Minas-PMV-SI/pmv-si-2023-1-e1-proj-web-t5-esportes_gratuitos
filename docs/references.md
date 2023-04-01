@@ -6,7 +6,7 @@
 
 **[3]** - _PAULA, T. R. et al. **Efetividade de aplicativos móveis para mudanças comportamentais em saúde: revisão sistemática**. Rev Rene, v. 21, p. 70, 2020._
 
-**[4]** - _SANTOS, M. S. et al. **Barreiras para a prática de atividade física em adolescentes. Um estudo por grupos focais**. Revista Brasileira de Cineantropometria & Desempenho Humano, v. 12, p. 137-143, 2010._
+**[4]** - _VIEIRA, V. R.; DA SILVA, J. V. P. **Barreiras à prática de atividades físicas no lazer de brasileiros: revisão sistematizada**. Pensar a Prática, Goiânia, v. 22, 2019. DOI: 10.5216/rpp.v22.54448. Disponível em: https://revistas.ufg.br/fef/article/view/54448. Acesso em: 31 mar. 2023._
 
 **[5]** - _WHO. **Global action plan on physical activity 2018-2030: more active people for a healthier world**. Genebra: WHO, 2018._
 
