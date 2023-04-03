@@ -1,8 +1,9 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O projeto se baseia numa aplicação para solucionar um problema muito comum no Brasil e no mundo inteiro, o sedentarismo e a obesidade, onde o usuário pode ver áreas onde ocorrem práticas de esportes de seu interesse em sua cidade e assim pode se juntar a essas pessoas sem pagar por isso, as áreas de atividades também oferecem informações sobre acessibilidade, tornando a aplicação ainda mais inclusiva. 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+5 personas foram criadas para que os problemas e as soluções ficassem mais claras e a partir disso apresentar uma aplicação web que realmente seja útil para as pessoas que sofrem com problemas de saúde por conta de obesidade, que são sedentárias ou que simplesmente gostam de manter uma rotina saudável e um corpo ativo.
+
 
 ## Personas
 
