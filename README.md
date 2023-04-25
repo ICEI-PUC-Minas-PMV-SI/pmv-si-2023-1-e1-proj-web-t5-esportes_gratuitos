@@ -1,6 +1,6 @@
 # Esportes gratuitos
 
-![Esportes gratuitos](https://user-images.githubusercontent.com/45612016/229262451-c350873f-559c-4475-a59f-9ab5b36c4d0d.jpg)
+![Esportes gratuitos](https://user-images.githubusercontent.com/file:///C:/Users/RAISSILA/Downloads/LOGO-VEM-certa%20(1).webp.jpg)
 
 `CURSO: Sistemas de Informação`
 
