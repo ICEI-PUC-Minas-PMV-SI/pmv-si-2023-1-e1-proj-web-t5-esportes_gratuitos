@@ -1,6 +1,6 @@
 # Esportes gratuitos
 
-- ![image](https://user-images.githubusercontent.com/45612016/229262451-c350873f-559c-4475-a59f-9ab5b36c4d0d.jpg)
+- ![image]
 
 `DISCIPLINA: Projeto - Aplicações Web`
 
