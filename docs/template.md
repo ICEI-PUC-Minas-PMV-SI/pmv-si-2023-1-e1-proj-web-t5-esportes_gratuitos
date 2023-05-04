@@ -4,6 +4,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 
 ## Cores
+As cores utilizadas no projeto foram escolhidas através de uma pesquisa onde algumas marcas esportivas tiveram algumas de suas paletas utilizadas por nós. As cores trazem uma ideia de energia e movimento, que é algo coerente com a proposta do projeto, porém também utilizamos cores neutras para não deixar o layout da aplicação poluída demais.
 
 #1A2A3A<br/>
 ![image](https://user-images.githubusercontent.com/85028195/234454032-d43a5915-2134-4f4f-af4a-a677093cbc21.png)
