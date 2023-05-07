@@ -1,7 +1,7 @@
 
 # Projeto de Interface
  
- Todas as telas da aplicação estão presnetes no user flow, onde é possível observar cada passo que o usuário vai fazer dentro da aplicação. 
+ Todas as telas da aplicação estão presentes no user flow, onde é possível observar cada passo que o usuário vai fazer dentro da aplicação. 
  
  As interfaces foram elaboradas com o objetivo de serem intuitivas e com poucos elemntos gráficos para que o usuário não se assuste com várias informações logo na tela principal do projeto.
  
