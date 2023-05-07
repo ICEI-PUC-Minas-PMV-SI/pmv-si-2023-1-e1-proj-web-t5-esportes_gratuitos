@@ -1,9 +1,11 @@
 
 # Projeto de Interface
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ 
+ Todas as telas da aplicação estão presnetes no user flow, onde é possível observar cada passo que o usuário vai fazer dentro da aplicação. 
+ 
+ As interfaces foram elaboradas com o objetivo de serem intuitivas e com poucos elemntos gráficos para que o usuário não se assuste com várias informações logo na tela principal do projeto.
+ 
+ As cores ajudam a deixar as funcionalidades da aplicação mais aparentes e os ícones demonstram de forma clara as funções dos botôes dentro da aplicação.
 
 ## User Flow
 
