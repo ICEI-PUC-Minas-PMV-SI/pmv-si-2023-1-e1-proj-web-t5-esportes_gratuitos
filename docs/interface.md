@@ -19,7 +19,7 @@ Wireframe que atende ao requisito RF-002<br/>
 ![image](https://user-images.githubusercontent.com/85028195/236685438-394ac81f-f3e9-4d4c-88a9-1a14005876d2.png)<br/>
 Wireframe que atende ao requisito RF-003 e RF-008<br/>
 ![image](https://user-images.githubusercontent.com/85028195/236685824-36e3e4ef-0479-4cfe-a3c9-257d05e1dfc7.png)<br/>
-Wireframe que atende ao requisito RF-004<br/>
+Wireframe que atende ao requisito RF-004 e RF-006<br/>
 ![image](https://user-images.githubusercontent.com/85028195/236685901-e9066282-ad3d-4921-8084-f4b1a756fb4f.png)<br/>
 Wireframe que atende ao requisito RF-005<br/>
 ![image](https://user-images.githubusercontent.com/85028195/236686327-b33b0796-2dd0-46ed-985e-fece2d5307fe.png)<br/>
