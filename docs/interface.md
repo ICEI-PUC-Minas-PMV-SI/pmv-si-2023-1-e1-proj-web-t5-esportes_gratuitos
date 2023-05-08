@@ -3,9 +3,9 @@
  
  Todas as telas da aplicação estão presentes no user flow, onde é possível observar cada passo que o usuário vai fazer dentro da aplicação. 
  
- As interfaces foram elaboradas com o objetivo de serem intuitivas e com poucos elemntos gráficos para que o usuário não se assuste com várias informações logo na tela principal do projeto.
+ As interfaces foram elaboradas com o objetivo de serem intuitivas e com poucos elementos gráficos para que o usuário não se assuste com várias informações logo na tela principal do projeto.
  
- As cores ajudam a deixar as funcionalidades da aplicação mais aparentes e os ícones demonstram de forma clara as funções dos botôes dentro da aplicação.
+ As cores ajudam a deixar as funcionalidades da aplicação mais aparentes e os ícones demonstram de forma clara as funções dos botões dentro da aplicação.
 
 ## User Flow
 
