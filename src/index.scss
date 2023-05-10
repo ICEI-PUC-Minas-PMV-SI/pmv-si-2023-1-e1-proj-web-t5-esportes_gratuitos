@@ -35,8 +35,9 @@ body {
     border-radius: 0 50px 50px 0;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    justify-content: stretch;
     left: 0;
+    position: fixed;
     height: 100%;
     padding: 45px 20px 30px 20px;
     top: 0;
@@ -46,6 +47,35 @@ body {
 
     .controls {
         padding-top: 40px;
+        flex-grow: 1;
+    }
+
+    .footer-actions {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+
+        button {
+            background: none;
+            border: 1px solid var(--light-green);
+            border-radius: 50%;
+            box-shadow: var(--dark-blue) 0 0 5px;
+            padding: 10px 13px;
+            
+            i {
+                color: var(--light-green);
+                font-size: 2rem;
+            }
+
+            &.search {
+                background: var(--light-green);
+                
+                i {
+                    color: var(--dark-blue);
+                }
+
+            }
+        }
     }
 }
 
@@ -73,6 +103,26 @@ body {
         
         i {
             color: var(--light-green);
+        }
+    }
+}
+
+.add-group {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    z-index: 1;
+    
+    button {
+        background: var(--light-green);
+        border: none;
+        border-radius: 50%;
+        box-shadow: var(--dark-blue) 0 0 5px;
+        padding: 10px 13px;
+
+        i {
+            font-size: 2rem;
         }
     }
 }
