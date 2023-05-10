@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/85028195/236078219-c86e9bf1-db38-41c2-942d-e4af68096c7f.png)
 ![image](https://user-images.githubusercontent.com/85028195/236078161-99a2ebaa-cf3b-43c9-9d97-67422207696f.png)
 
-O layout principal da tela terá essa formato, mostrando sempre o íconde do perfil do usuário, a barra de buscas e o mapa com as atividades já existentes.
+O layout principal da tela terá essa formato, mostrando sempre o ícone do perfil do usuário, a barra de buscas e o mapa com as atividades já existentes.
 E a tela de login/cadastro que também será muito presente no dia a dia do usuário terá essa layout, sempre mostrando o logo da aplicação de forma que não polua a interface
 
 
