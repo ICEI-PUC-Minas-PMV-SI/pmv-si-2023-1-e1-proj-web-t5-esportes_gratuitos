@@ -1,0 +1,78 @@
+:root {
+    --dark-blue: #1a2a3a;
+    --light-green: #bbfd00;
+    --white: #f3f3f3;
+    --blue: #0055bd;
+    --red: #b71c1c;
+}
+
+html, body{
+    height: 100%;
+} 
+
+body {
+    position: relative;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    align-items: center;
+    background: var(--dark-blue);
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    padding: 45px 20px 30px 20px;
+    top: 0;
+    transition: all 0.5s ease;
+    width: 360px;
+    z-index: 2;
+
+    .controls {
+        padding-top: 40px;
+    }
+}
+
+.searchbar {
+    background: var(--dark-blue);
+    border-radius: 50px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px auto;
+    padding: 5px 10px;
+    width: fit-content;
+    z-index: 1;
+
+    input {
+        background: none;
+        border: none;
+        font-size: 1rem;
+        margin: 0 20px;
+    }
+
+    button {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        
+        i {
+            color: var(--light-green);
+        }
+    }
+}
