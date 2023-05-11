@@ -11,7 +11,7 @@
 }
 
 body {
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column ;
     background: var(--dark-blue);
@@ -20,8 +20,12 @@ body {
 
 header {
     
-    margin-top: 30px;
-    margin-bottom: 50px;
+    display: flex;
+    margin: 50px 30px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     h1 {
         text-align: center;
@@ -43,7 +47,6 @@ section {
     display: flex;
     flex-direction: column;
     width: 100%;
-    flex-grow: 1;
     padding: 50px 30px;  
     background: var(--white);
     align-items: stretch;
@@ -60,6 +63,20 @@ section {
     
     span {
         display: flex;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        font-weight: 600;
+        color: var(--dark-blue);
+
+        &::after, &::before {
+            content: '';
+            display: inline-block;
+            width: 60px;
+            margin: 0 10px;
+            border-bottom: .2px solid var(--dark-blue);
+        }
+
     }
 
     input {
@@ -83,6 +100,7 @@ section {
         &.raised {
             background: none;
             color: var(--dark-blue);
+            font-size: .9rem;
         }
     }
 }
