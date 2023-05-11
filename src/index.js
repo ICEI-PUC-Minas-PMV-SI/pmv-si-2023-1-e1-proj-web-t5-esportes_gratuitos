@@ -1,4 +1,3 @@
-const icon = require('boot')
 var element = '';
 var openedDescription = false;
 
