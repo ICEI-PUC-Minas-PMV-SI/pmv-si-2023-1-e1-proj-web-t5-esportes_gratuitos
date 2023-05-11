@@ -6,10 +6,6 @@
     --red: #b71c1c;
 }
 
-* {
-    font-family: 'Poppins', sans-serif;
-}
-
 body {
     height: 100vh;
     display: flex;
@@ -19,7 +15,6 @@ body {
 }
 
 header {
-    
     display: flex;
     margin: 50px 30px;
     flex-grow: 1;
@@ -51,6 +46,8 @@ section {
     background: var(--white);
     align-items: stretch;
     border-radius: 30px 30px 0 0;
+    font-family: 'Poppins', sans-serif;
+
 
     * + * {
         margin-top: 10px;
@@ -59,6 +56,7 @@ section {
     h1 {
         text-align: center;
         font-size: 600;
+        font-size: 1.5rem;
     }
     
     span {
@@ -87,19 +85,21 @@ section {
         font-size: 1rem;
     }
     
-    button {
+    a {
         background: var(--dark-blue);
         font-size: 1rem;
         font-weight: 600;
         border-radius: 30px;
         text-align: center;
-        color: var(--white);
+        color: var(--white) !important;
         border: none;
         padding: 10px 15px; 
+        text-decoration: none;
+        cursor: pointer;
 
         &.raised {
             background: none;
-            color: var(--dark-blue);
+            color: var(--dark-blue) !important;
             font-size: .9rem;
         }
     }

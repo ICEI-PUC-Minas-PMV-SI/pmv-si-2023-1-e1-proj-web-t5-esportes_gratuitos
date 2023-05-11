@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -22,6 +21,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Poppins', sans-serif;
 }
 
 article, aside, details, figcaption, figure, 
