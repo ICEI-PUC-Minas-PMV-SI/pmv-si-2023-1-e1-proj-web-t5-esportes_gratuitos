@@ -1,6 +1,7 @@
 # Esportes gratuitos
 
-![vida em movimento](https://user-images.githubusercontent.com/127696849/236989640-88870a8d-4896-4ff3-b46a-89906ffe1fad.jpg)
+![viva em movimento](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-esportes_gratuitos/assets/127696849/b8efe8a1-a60d-4ae4-b438-c059229ad159)
+
 
 `SEMESTRE: 1º`    
 
