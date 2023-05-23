@@ -238,10 +238,12 @@ body {
         flex-direction: column;
         align-items: stretch;
 
-        button {
+        a {
             border-radius: 30px;
             font-family: 'Poppins', sans-serif;
             font-size: 1rem;
+            text-decoration: none;
+            text-align: center;
             padding: 10px 15px;
         }
     
