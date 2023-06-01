@@ -215,6 +215,13 @@ body {
     border-radius: 30px;
     color: var(--white);
   }
+    button, a {
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
 
   button {
     font-size: 1.1rem;
