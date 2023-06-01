@@ -215,10 +215,12 @@ body {
     align-items: stretch;
     width: 100%;
 
-    button {
+    button, a {
         font-size: 1.1rem;
         font-weight: 600;
         padding: 10px;
+        text-align: center;
+        text-decoration: none;
         cursor: pointer;
 
         &.see-participants {
