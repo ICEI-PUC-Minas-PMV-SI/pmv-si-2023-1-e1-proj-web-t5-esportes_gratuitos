@@ -102,6 +102,16 @@ section {
       font-size: 0.9rem;
     }
   }
+  .termos {
+    padding: 0;
+    background: #f3f3f3;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0;
+    color: #1a2a3a !important;
+    border: none;
+    text-decoration: underline;
+  }
 }
 
 @media screen and (min-width: 560px) {
