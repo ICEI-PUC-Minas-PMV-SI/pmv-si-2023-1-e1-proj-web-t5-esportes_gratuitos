@@ -203,30 +203,13 @@ body {
   flex-direction: column;
   align-items: stretch;
   width: 100%;
-
-  a {
+  
+  button, a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px;
     text-align: center;
-    font-size: 1.1rem;
-    font-weight: 600;
-    padding: 10px;
     text-decoration: none;
-    background: none;
-    border: 1px solid var(--light-green);
-    border-radius: 30px;
-    color: var(--white);
-  }
-    button, a {
-        font-size: 1.1rem;
-        font-weight: 600;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-
-  button {
-    font-size: 1.1rem;
-    font-weight: 600;
-    padding: 10px;
     cursor: pointer;
 
     &.see-participants {
@@ -244,4 +227,5 @@ body {
       margin-top: 5px;
     }
   }
+
 }
