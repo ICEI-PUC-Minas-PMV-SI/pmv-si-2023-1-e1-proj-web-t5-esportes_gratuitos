@@ -7,6 +7,8 @@
 
 O projeto proposto é uma aplicação que fornecerá informações sobre grupos esportivos gratuitos disponíveis em uma cidade, com o objetivo de aumentar o acesso e o engajamento da população em práticas esportivas. A falta de informações e recursos financeiros pode ser um obstáculo significativo para a participação da população em atividades físicas e esportivas, especialmente para aqueles que possuem menor poder aquisitivo. Com o uso dessa ferramenta, é possível localizar e se conectar facilmente a grupos esportivos gratuitos na região, possibilitando a participação nessas atividades sem enfrentar barreiras financeiras. Essa iniciativa contribui para o alcance de objetivos relacionados ao incentivo da prática de atividades físicas e esportivas no país, promovendo a saúde e o bem-estar físico e social da população brasileira.
 
+Disponível em: https://projeto-vem.netlify.app
+
 ## Integrantes
 
 * Bruno Taveira da Rocha
