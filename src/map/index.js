@@ -6,17 +6,28 @@ function init () {
         center: new google.maps.LatLng(-19.923444, -43.934890),
         zoom: 13,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        disableDefaultUI: true
+        disableDefaultUI: true,
+        styles: [
+            {
+                featureType: "poi.business",
+                stylers: [{ visibility: "off" }],
+            },
+        ],
     };
 
     var map = new google.maps.Map(document.getElementById("map"), options);
 
     map.addListener('click', closeDescription);
 
+    console.log(getComputedStyle(document.documentElement).getPropertyValue("--blue"));
     var marker = new google.maps.Marker({
         position: { lat: -19.923761, lng: -43.934267},
         map,
-        title: "Vôlei do Lalá"
+        title: "Vôlei do Lalá",
+        icon: {
+            url: "../assets/get-alt-fill.svg",
+            scaledSize: new google.maps.Size(35, 35)
+        }
     });
 
     marker.addListener('click', openDescription);
