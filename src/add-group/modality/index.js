@@ -1,7 +1,15 @@
 var modality = "";
 var checkedElement = null;
 
-function init() { }
+function init() { 
+    const nextButton = document.getElementById("forward");
+    
+    console.log(location.href);
+    if (location.href.split("#")[1] === 'suggestion') {
+        nextButton.href = "/add-group/location";
+    }
+
+}
 
 function checkMarker(element) {
 
