@@ -10,12 +10,17 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   text-align: center;
   background: var(--dark-blue);
   font-family: "Poppins", sans-serif;

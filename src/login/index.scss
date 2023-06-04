@@ -6,8 +6,11 @@
   --red: #b71c1c;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   background: var(--dark-blue);
