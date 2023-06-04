@@ -33,6 +33,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
+## Usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador do usuário                  | 1                                              |
+| Nome           | Texto             | Nome do usuário                           | Carlos B. Machado                              |
+| Email          | Texto             | Email do usuário                          | carlos.machado@gmail.com                       |
+| Celular do usuário | Texto         | Celular do usuário                        | (11) 99999-9999                                |
+| Data de nascimento | Data          | Data de nascimento do usuário             | 04/06/1985                                     |
+| Instagram      | Texto             | Identificador da conta de instagram do usuário | @carlosbmachado                           |
+| Twitter        | Texto             | Identificador da conta do twitter do usuário | @carlosbmachado                             |
+| Facebook       | Texto             | Identificador da conta de facebook do usuário | /CarlosBMachado                            |
+
 ## Grupo
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
