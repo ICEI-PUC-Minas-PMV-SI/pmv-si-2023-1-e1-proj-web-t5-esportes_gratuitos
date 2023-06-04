@@ -10,7 +10,13 @@ function init () {
         scaleControl: false,
         streetViewControl: false,
         overviewMapControl: false,
-        rotateControl: false
+        rotateControl: false,
+        styles: [
+            {
+                featureType: "poi.business",
+                stylers: [{ visibility: "off" }],
+            },
+        ],
     };
 
     var map = new google.maps.Map(document.getElementById("map"), options);
@@ -18,7 +24,12 @@ function init () {
     var marker = new google.maps.Marker({
         position: { lat: -19.923761, lng: -43.934267},
         map,
-        title: "Vôlei do Lalá"
+        title: "Vôlei do Lalá",
+        icon: {
+            url: "../assets/get-alt-fill.svg",
+            scaledSize: new google.maps.Size(40, 40)
+        }
     });
+    
     
 }
