@@ -1,16 +1,21 @@
-var days = [];
+var modality = "";
 var checkedElement = null;
 
 function init() { }
 
 function checkMarker(element) {
-    let index = days.indexOf(element.childNodes[0]);
 
-    if (index < 0) {
-        days.push(element.childNodes[0]);
+    if (element.childNodes[0] != modality) {
+        modality = element.childNodes[0];
         element.childNodes[1].setAttribute("marked", "true");
+
+        if (null != checkedElement) {
+            checkedElement.childNodes[1].removeAttribute("marked");
+        }
+
+        checkedElement = element;
     } else {
-        days.splice(index, 1);
+        modality = "";
         element.childNodes[1].removeAttribute("marked");
     }
 
