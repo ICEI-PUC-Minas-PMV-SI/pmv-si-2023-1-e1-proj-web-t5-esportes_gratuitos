@@ -32,11 +32,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+## Grupo
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id             | Numero (Inteiro)  | Identificador do grupo                    | 1                                              |
+| Nome           | Texto             | Nome do grupo                             | Vôlei do Lalá                                  |
+| Descricao      | Texto             | Descrição do grupo                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+| Modalidade     | Numero (Inteiro)  | Identificador da modalidade               | 19                                             |
+| Acessibilidade | Booleano          | Flag de acessibilidade do grupo           | true                                           |
+| Reunioes       | Lista (Reunião)   | Data e hora das reuniões do grupo         |[{"id":1,"dia":"Segunda","hora":"20h"},{"id":2,"dia":"Terça","hora":"20h"},{"id":6,"dia":"Sábado","hora":"16:30h"}]|
 
+## Reunião
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador do dia da reunião           | 1                                              |
+| Dia            | Texto             | Dia da reunião                            | Segunda                                        |
+| Hora           | Texto             | Horas da reunião                          | 20h                                            |
+
+## Modalidade
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador da modalidade               | 19                                             |
+| Nome           | Texto             | Nome da modalidade                        | Vôlei                                          |
