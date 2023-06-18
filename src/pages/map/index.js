@@ -2,10 +2,11 @@
 
 
 var map, markers = [];
+var modalities = [];
 var element = '';
 var openedDescription = false;
 
-function init () {
+async function init () {
     map = new google.maps.Map(document.getElementById("map"), {
         center: new google.maps.LatLng(-21.786642989870952, -46.588988926483765),
         zoom: 13,
@@ -21,7 +22,8 @@ function init () {
 
     map.addListener('click', closeDescription);
 
-    getGroups();
+    await getModalities();
+    await getGroups();
 
     const darkBlue = getComputedStyle(document.documentElement).getPropertyValue("--dark-blue")
     console.log(darkBlue);
@@ -79,9 +81,29 @@ function setMapOnAll(map) {
     }
 }
 
+async function getModalities(name = '') {
+    try {
+        modalities = await fetch('http://localhost:3000/api/modalidades')
+            .then(response => response.json());
+
+        const modalidades = document.getElementById("modalidades");
+        for (let m of modalities) {
+            var option = document.createElement("option");
+            option.value = m.id ;
+            option.text = m.modalidade;
+            modalidades.appendChild(option);
+        }
+        
+    } catch (e) {
+        console.log(e);
+    }
+}
+
 function openDescription(grupo) {
+    const nomeModalidade = modalities.find(m => m.id === grupo.modalidade)?.modalidade || '';
+    document.getElementById("group-modality").innerHTML = nomeModalidade;
+
     document.getElementById("group-name").innerHTML = grupo.nome;
-    document.getElementById("group-modality").innerHTML = grupo.modalidade;
     document.getElementById("group-button").href = "/grupo/" + grupo.id;
     document.getElementById("group").style.transform = "translateY(0)";
 }
