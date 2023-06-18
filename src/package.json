@@ -1,0 +1,16 @@
+{
+  "name": "projeto-vem",
+  "version": "1.0.0",
+  "description": "O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd api && node ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "geolib": "^3.3.4",
+    "json-server": "^0.17.3"
+  }
+}
