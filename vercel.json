@@ -1,8 +1,8 @@
 {
   "functions": {
-    "api/server.js": {
+    "src/api/server.js": {
       "memory": 1024,
-      "includeFiles": "/api/db.json"
+      "includeFiles": "src/api/db.json"
     }
   },
   "rewrites": [
