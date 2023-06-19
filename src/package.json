@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cp -r ./public/env.local.json ./public/env.json && node ./api/server.js",
-    "build": "cp -r ./public/env.prod.json ./public/env.json && node ./api/server.js"
+    "build": "cp -r ./public/env.prod.json ./public/env.json && tsc && node ./api/server.js"
   },
   "author": "",
   "license": "ISC",
