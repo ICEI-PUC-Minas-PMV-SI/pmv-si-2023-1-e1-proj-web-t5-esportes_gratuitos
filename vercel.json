@@ -1,4 +1,15 @@
 {
+  "version": 2,
+  "builds": [{
+    "src": "/src/api/server.js",
+    "use": "@vercel/node"
+  }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
   "functions": {
     "/src/api/server.js": {
       "memory": 1024,
