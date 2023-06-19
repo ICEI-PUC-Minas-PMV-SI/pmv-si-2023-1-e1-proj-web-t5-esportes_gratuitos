@@ -4,7 +4,8 @@
   "description": "O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...",
   "main": "index.js",
   "scripts": {
-    "start": "cd api && node ./server.js"
+    "dev": "cp -r ./pages/env.local.json ./pages/env.json && cd api && node ./server.js",
+    "build": "cp -r ./pages/env.prod.json ./pages/env.json && cd api && node ./server.js"
   },
   "author": "",
   "license": "ISC",

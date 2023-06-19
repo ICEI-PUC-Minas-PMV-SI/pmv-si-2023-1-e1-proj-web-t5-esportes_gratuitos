@@ -1,6 +1,3 @@
-// DOM ELEMENTS
-
-
 var map, markers = [];
 var modalities = [];
 var element = '';
@@ -25,8 +22,7 @@ async function init () {
     await getModalities();
     await getGroups();
 
-    const darkBlue = getComputedStyle(document.documentElement).getPropertyValue("--dark-blue")
-    console.log(darkBlue);
+    const darkBlue = getComputedStyle(document.documentElement).getPropertyValue("--dark-blue");
     const cityCircle = new google.maps.Circle({
         map,    
         strokeColor: darkBlue,
@@ -47,7 +43,7 @@ async function getGroups(name = '') {
             query = "?q=" + name;
         }
 
-        const grupos = await fetch('http://localhost:3000/api/grupos' + query)
+        const grupos = await fetch(window.env + '/grupos' + query)
             .then(response => response.json());
 
         setMapOnAll(null);
@@ -83,7 +79,7 @@ function setMapOnAll(map) {
 
 async function getModalities(name = '') {
     try {
-        modalities = await fetch('http://localhost:3000/api/modalidades')
+        modalities = await fetch(window.env + '/modalidades')
             .then(response => response.json());
 
         const modalidades = document.getElementById("modalidades");
