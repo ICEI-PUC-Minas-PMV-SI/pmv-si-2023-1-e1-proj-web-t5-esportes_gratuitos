@@ -15,6 +15,7 @@
     
     <link rel="stylesheet/less" type="text/css" href="index.scss" />
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
+    <script src="script.js"></script>
 
     <title>VEM</title>
 </head>
@@ -26,12 +27,16 @@
     </header>
     <section>
         <h1>REGISTRAR-SE</h1>
-        <input type="text" placeholder="Seu nome">
-        <input type="text" placeholder="Seu celular">
-        <input type="email" placeholder="E-mail">
-        <input type="password" placeholder="Senha">
-        <input type="password" placeholder="Confirme sua senha">
-        <a href="/map">Criar conta</a>
+
+       
+                <input id="inputNome" type="text" placeholder="Seu nome">
+                <input id="inputCelular" type="text" placeholder="Seu celular">
+                <input id="inputEmail" type="email" placeholder="E-mail">
+                <input id="inputSenha" type="password" placeholder="Senha">
+                <input id="inputSenha2" type="password" placeholder="Confirme sua senha">
+                <a onclick="validateForm()">Criar conta</a>
+       
+
         <span>Ja possui conta?</span>
         <a href="/login/">Fazer Login</a>
         <p>Ao registrar você concorda com os <a class="termos" href="/user-terms/">Termos de uso</a></p>
