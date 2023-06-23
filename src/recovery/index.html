@@ -20,19 +20,19 @@
    <section>
     <a href="/login/"><i class="fa-solid fa-arrow-left"></i></a>
      <h5>RECUPERAÇÃO DE CONTA</h5>
-     <input type="text" placeholder="Digite seu email">
+     <input id="recuperarEmail" type="text" placeholder="Digite seu email">
    </input>
-     <button class="button">
+     <button onclick="enviarCodigo()" class="button">
         Enviar código
      </button>
    </section>
    <section class="modal">
       <h1>?</h1>
       <p>Se o e-mail estiver correto, chegará um código para restaurar a senha. Digite Abaixo : </p>
-      <input type="text" placeholder="insira o código"></input>
-      <input type="text" placeholder="nova senha"></input>
-      <a href="../login/">
-         <button class="button-codigo">
+      <input id="inputCodigo" type="text" placeholder="insira o código"></input>
+      <input id="novaSenha" type="text" placeholder="nova senha"></input>
+      <a >
+         <button onclick="confirmarCodigo()" class="button-codigo">
          confirmar código 
       </button>
    </a>
