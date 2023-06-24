@@ -13,6 +13,7 @@ function loginUsuario() {
       window.location.href = "../map";
     } else {
       alert("wrong username or password");
+      return;
     }
   }
 }
