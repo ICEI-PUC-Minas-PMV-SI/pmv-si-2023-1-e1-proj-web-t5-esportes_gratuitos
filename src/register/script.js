@@ -47,28 +47,33 @@ function generateUUID() {
   });
 }
 function addData() {
-  /*
-      if (localStorage.getItem("lista_usuarios") == null) {
-        listaUsuarios = [];
-      } else {
-        listaUsuarios = JSON.parse(localStorage.getItem("lista_usuarios"));
-      }
-      
-    */
   var nome = document.getElementById("inputNome").value;
   var celular = document.getElementById("inputCelular").value;
   var email = document.getElementById("inputEmail").value;
   var senha = document.getElementById("inputSenha").value;
-  var listaUsuarios = [];
-  listaUsuarios.push({
-    id: generateUUID(),
-    nome: nome,
-    celular: celular,
-    email: email,
-    senha: senha,
-  });
+  listaUsuarios = [];
+  if (localStorage.getItem("lista_usuarios") == null) {
+    listaUsuarios.push({
+      id: generateUUID(),
+      nome: nome,
+      celular: celular,
+      email: email,
+      senha: senha,
+    });
 
-  localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuarios));
+    localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuarios));
+  } else {
+    listaUsuarios = JSON.parse(localStorage.getItem("lista_usuarios"));
+    listaUsuarios.push({
+      id: generateUUID(),
+      nome: nome,
+      celular: celular,
+      email: email,
+      senha: senha,
+    });
+
+    localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuarios));
+  }
 }
 
 /*

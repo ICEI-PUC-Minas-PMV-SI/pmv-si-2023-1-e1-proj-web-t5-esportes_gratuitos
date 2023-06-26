@@ -16,19 +16,18 @@ function enviarCodigo() {
   var recuperarEmail = document.getElementById("recuperarEmail").value;
 
   var listaUsuario = JSON.parse(localStorage.getItem("lista_usuarios"));
-  for (var i in listaUsuario) {
-    var entry = listaUsuario[i];
-    if (recuperarEmail == entry.email) {
+
+  listaUsuario.filter((user) => {
+    if (recuperarEmail == user.email) {
       console.log("email encontrado");
 
       console.log(codigoAleatorio);
     } else {
-      alert("email nao encontrado");
-
-      modal.style.display = "none";
-      shadow.style.display = "none";
+      //alert("email nao encontrado");
+      //modal.style.display = "none";
+      //shadow.style.display = "none";
     }
-  }
+  });
 }
 function confirmarCodigo() {
   var inputCodigo = document.getElementById("inputCodigo").value;

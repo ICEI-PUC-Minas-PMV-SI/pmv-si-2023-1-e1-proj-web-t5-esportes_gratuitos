@@ -4,16 +4,14 @@ function loginUsuario() {
   var inputSenha = document.getElementById("inputSenha").value;
 
   var listaUsuario = JSON.parse(localStorage.getItem("lista_usuarios"));
-  for (var i in listaUsuario) {
-    var entry = listaUsuario[i];
-
-    if (inputEmail == entry.email && inputSenha == entry.senha) {
+  listaUsuario.filter((user) => {
+    console.log(user);
+    if (user.email == inputEmail && user.senha == inputSenha) {
       alert("Log in successfull");
-
       window.location.href = "../map";
     } else {
-      alert("wrong username or password");
+      //alert("wrong username or password");
       return;
     }
-  }
+  });
 }
