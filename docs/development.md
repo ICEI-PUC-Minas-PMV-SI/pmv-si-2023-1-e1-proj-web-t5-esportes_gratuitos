@@ -40,7 +40,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Nome           | Texto             | Nome do usuário                           | Carlos B. Machado                              |
 | Email          | Texto             | Email do usuário                          | carlos.machado@gmail.com                       |
 | Celular do usuário | Texto         | Celular do usuário                        | (11) 99999-9999                                |
-| Data de nascimento | Data          | Data de nascimento do usuário             | 04/06/1985                                     |
+| Idade | Texto          | Idade do usuário             | 45 anos                                    |
 | Instagram      | Texto             | Identificador da conta de instagram do usuário | @carlosbmachado                           |
 | Twitter        | Texto             | Identificador da conta do twitter do usuário | @carlosbmachado                             |
 | Facebook       | Texto             | Identificador da conta de facebook do usuário | /CarlosBMachado                            |
