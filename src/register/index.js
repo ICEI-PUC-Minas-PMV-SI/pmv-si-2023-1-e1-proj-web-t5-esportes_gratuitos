@@ -1,6 +1,7 @@
 function validateForm() {
   var loginURL = "../login";
   var nome = document.getElementById("inputNome").value;
+  var idade = document.getElementById("inputIdade").value;
   var celular = document.getElementById("inputCelular").value;
   var email = document.getElementById("inputEmail").value;
   var senha = document.getElementById("inputSenha").value;
@@ -8,6 +9,7 @@ function validateForm() {
 
   if (
     nome === "" ||
+    idade == "" ||
     celular === "" ||
     email === "" ||
     senha === "" ||
@@ -21,6 +23,7 @@ function validateForm() {
     addData();
     alert("cadastro feito com sucesso");
     document.getElementById("inputNome").value = "";
+    document.getElementById("inputIdade").value = "";
     document.getElementById("inputCelular").value = "";
     document.getElementById("inputEmail").value = "";
     document.getElementById("inputSenha").value = "";
@@ -48,6 +51,7 @@ function generateUUID() {
 }
 function addData() {
   var nome = document.getElementById("inputNome").value;
+  var idade = document.getElementById("inputIdade").value;
   var celular = document.getElementById("inputCelular").value;
   var email = document.getElementById("inputEmail").value;
   var senha = document.getElementById("inputSenha").value;
@@ -56,6 +60,7 @@ function addData() {
     listaUsuarios.push({
       id: generateUUID(),
       nome: nome,
+      idade: idade,
       celular: celular,
       email: email,
       senha: senha,
@@ -67,6 +72,7 @@ function addData() {
     listaUsuarios.push({
       id: generateUUID(),
       nome: nome,
+      idade: idade,
       celular: celular,
       email: email,
       senha: senha,

@@ -8,6 +8,7 @@ function loginUsuario() {
     console.log(user);
     if (user.email == inputEmail && user.senha == inputSenha) {
       alert("Log in successfull");
+      localStorage.setItem("usuarioLogadoID", user.id);
       window.location.href = "../map";
     } else {
       //alert("wrong username or password");
