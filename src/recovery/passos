@@ -1,5 +1,0 @@
-- digitar o email no campo
-- ver se o email digitado é igual ao que ta no local storage
-- manda um código de 4 dígitos para esse email
-- salvar esse código temporariamente até que o usuário escreva esse código no campo desejado
-- se o código for igual, atualizar o senha do usuário.
