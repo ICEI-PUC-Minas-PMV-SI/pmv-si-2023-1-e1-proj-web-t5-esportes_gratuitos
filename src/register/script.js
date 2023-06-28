@@ -51,7 +51,7 @@ function addData() {
   var celular = document.getElementById("inputCelular").value;
   var email = document.getElementById("inputEmail").value;
   var senha = document.getElementById("inputSenha").value;
-  listaUsuarios = [];
+  var listaUsuarios = [];
   if (localStorage.getItem("lista_usuarios") == null) {
     listaUsuarios.push({
       id: generateUUID(),
