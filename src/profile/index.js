@@ -12,29 +12,3 @@ infoUsuario.find((user) => {
     email.textContent = user.email;
   }
 });
-/*
-usuarioLogado.find((user) => {
-  console.log(user);
-});
-
-function showData() {
-  var listaUsuarios;
-  if (localStorage.getItem("lista_usuarios") == null) {
-    listaUsuarios = [];
-  } else {
-    listaUsuarios = JSON.parse(localStorage.getItem("lista_usuarios"));
-  }
-
-  listaUsuarios.forEach((element, index) => {
-    console.log(
-      index,
-      element.id,
-      element.nome,
-      element.celular,
-      element.email,
-      element.senha
-    );
-  });
-}
-document.onload = showData();
-*/
