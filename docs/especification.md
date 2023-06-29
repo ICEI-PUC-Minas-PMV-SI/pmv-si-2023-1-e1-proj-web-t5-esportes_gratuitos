@@ -80,7 +80,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Permitir que o usuário busque por grupos esportivos, delimitando por modalidade, acessibilidade e/ou distância | ALTA | |
 |RF-005| Permitir que o usuário (cadastrado) demonstre interesse em determinado esporte | ALTA | |
 |RF-006| A aplicação deve ser acessível para todos os públicos | ALTA | |
-|RF-007| Permitir que o usuário (cadastrado) integre seus grupos com as redes sociais | MÉDIA | |
 |RF-008| Permitir que o usuário (cadastrado) gere demanda de esportes | MÉDIA | |
 |RF-009| Permitir que o usuário (cadastrado) avalie os grupos | MÉDIA | |
 |RF-010| Notificar o usuário de grupos criados em sua área | BAIXA | |
