@@ -21,3 +21,55 @@
 
     <title>VEM</title>
 </head>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfBucnYgJV5eUJUhQq_V_5NeFABTNIXvA" defer ></script>
+    
+    <link rel="stylesheet" href="../reset.css">
+    
+    <link rel="stylesheet/less" type="text/css" href="index.scss" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
+    
+    <script type="text/javascript" src="index.js"></script>
+
+    <title>VEM</title>
+</head>
+<body onload="init()">
+    <div id="map"></div>
+    <div class="wrapper">
+        <div class="header">
+            <a href="/map/"><i class="bi bi-arrow-left"></i></a>
+            <div class="group-avatar"></div>
+            <a><i class="bi bi-share"></i></a>
+        </div>
+        <div class="content">
+            <div class="title">
+                <div class="name">
+                    <h1>FUTEBOL</h1>
+                    <h2>Últimos interessados ( 25 )</h2>
+                </div>
+                <img src="../assets/acessibility.svg" alt="">
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac elit iaculis orci molestie hendrerit. Maecenas eu interdum ex. Donec.
+            </div>
+        </div>
+        
+        <div class="actions">
+            <a href="/members/" class="see-participants">Estou interessado</a>
+            <button id="enter-group" class="enter-group">Criar Grupo</button>
+        </div>
+    </div>
+
+</body>
+</html>
