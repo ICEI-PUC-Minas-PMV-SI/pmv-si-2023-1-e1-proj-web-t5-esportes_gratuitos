@@ -42,7 +42,7 @@ function confirmarCodigo() {
       localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuario));
       console.log(user);
     });
-    //window.location.href = "../login";
+    window.location.href = "../login";
   }
 }
 /*
