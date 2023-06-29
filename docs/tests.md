@@ -41,6 +41,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT03 - integrar o perfil com as redes sociais**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário vai até a tela do seu perfil e clica nos ícones da rede social desejada.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação mostra o usuário da rede social escolhida em seu perfil dentro da aplicação
+**Requisitos associados** | RF-007
+**Resultado esperado** | Integração com as redes sociais
+**Dados de entrada** | Inserção de dados válidos no formulaário da rede social.
+**Resultado obtido** | Sucesso.
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
