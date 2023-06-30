@@ -23,7 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
     liElement.addEventListener("click", function () {
       const day = this.textContent.trim().split(" ")[0];
       listaGrupo = JSON.parse(localStorage.getItem("lista_grupos"));
-      listaGrupo.dia = day;
+      console.log(listaGrupo);
+      listaGrupo.find((grupo) => {
+        if (grupo.id != null) {
+          grupo.dia = day;
+        }
+      });
+      console.log(listaGrupo);
     });
   });
   nextPage.addEventListener("click", () => {
