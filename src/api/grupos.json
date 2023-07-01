@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "nome": "Vôlei do Lalá",
+        "descricao": "Somos um grupo de amigos apaixonados por vôlei que valoriza diversão e amizade acima de tudo!",
+        "modalidade": 125,
+        "acessivel": true,
+        "localizacao": [
+            -21.79544186008339,
+            -46.561222594187804
+        ],
+        "reunioes": [
+            {
+                "id": 1,
+                "dia": "Segunda",
+                "horario": {
+                    "hora": 20,
+                    "minutos": 0
+                }
+            },
+            {
+                "id": 2,
+                "dia": "Terça",
+                "horario": {
+                    "hora": 20,
+                    "minutos": 0
+                }
+            },
+            {
+                "id": 6,
+                "dia": "Sábado",
+                "horario": {
+                    "hora": 16,
+                    "minutos": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Fut dos Amigos",
+        "descricao": "Nós jogamos futsal todas as quartas-feiras e buscamos novos membros para se juntar a nós!",
+        "modalidade": 44,
+        "acessivel": false,
+        "localizacao": [
+            -21.77615309212151,
+            -46.60527896513096
+        ],
+        "reunioes": [
+            {
+                "id": 3,
+                "dia": "Quarta",
+                "horario": {
+                    "hora": 19,
+                    "minutos": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "SkateLane",
+        "descricao": "Equipe profissional de skate em busca de novos talentos para integrar o time!",
+        "modalidade": 109,
+        "acessivel": false,
+        "localizacao": [
+            -21.78672429883687,
+            -46.58652578458383
+        ],
+        "reunioes": [
+            {
+                "id": 2,
+                "dia": "Terça",
+                "horario": {
+                    "hora": 18,
+                    "minutos": 0
+                }
+            },
+            {
+                "id": 4,
+                "dia": "Quinta",
+                "horario": {
+                    "hora": 18,
+                    "minutos": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nome": "BT das Estrelas",
+        "descricao": "Venha jogar Beachtennis com jogadores profissionais e amadores em um ambiente descontraído!",
+        "modalidade": 8,
+        "acessivel": true,
+        "localizacao": [
+            -21.811299964475296,
+            -46.58458579354765
+        ],
+        "reunioes": [
+            {
+                "id": 0,
+                "dia": "Domingo",
+                "horario": {
+                    "hora": 10,
+                    "minutos": 0
+                }
+            },
+            {
+                "id": 6,
+                "dia": "Sexta",
+                "horario": {
+                    "hora": 19,
+                    "minutos": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "nome": "Capoeira para Todos",
+        "descricao": "Oferecemos aulas gratuitas de capoeira para todas as idades e níveis de habilidade!",
+        "modalidade": 22,
+        "acessivel": true,
+        "localizacao": [
+            -21.786721734447354,
+            -46.589017462625215
+        ],
+        "reunioes": [
+            {
+                "id": 1,
+                "dia": "Segunda",
+                "horario": {
+                    "hora": 16,
+                    "minutos": 0
+                }
+            },
+            {
+                "id": 3,
+                "dia": "Quarta",
+                "horario": {
+                    "hora": 16,
+                    "minutos": 0
+                }
+            },
+            {
+                "id": 5,
+                "dia": "Sexta",
+                "horario": {
+                    "hora": 16,
+                    "minutos": 0
+                }
+            }
+        ]
+    }
+]

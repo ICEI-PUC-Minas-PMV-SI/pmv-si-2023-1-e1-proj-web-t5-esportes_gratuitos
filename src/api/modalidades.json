@@ -1,0 +1,534 @@
+[
+    {
+        "id": 0,
+        "modalidade": "Aikido"
+    },
+    {
+        "id": 1,
+        "modalidade": "Airsoft"
+    },
+    {
+        "id": 2,
+        "modalidade": "Arco e flecha"
+    },
+    {
+        "id": 3,
+        "modalidade": "Asa-delta"
+    },
+    {
+        "id": 4,
+        "modalidade": "Atletismo"
+    },
+    {
+        "id": 5,
+        "modalidade": "Automobilismo"
+    },
+    {
+        "id": 6,
+        "modalidade": "Badminton"
+    },
+    {
+        "id": 7,
+        "modalidade": "Basquete"
+    },
+    {
+        "id": 8,
+        "modalidade": "Beachtennis"
+    },
+    {
+        "id": 9,
+        "modalidade": "Beisebol"
+    },
+    {
+        "id": 10,
+        "modalidade": "Biatlo"
+    },
+    {
+        "id": 11,
+        "modalidade": "Bicicross"
+    },
+    {
+        "id": 12,
+        "modalidade": "Bilhar"
+    },
+    {
+        "id": 13,
+        "modalidade": "Boliche"
+    },
+    {
+        "id": 14,
+        "modalidade": "BMX"
+    },
+    {
+        "id": 15,
+        "modalidade": "Boxe"
+    },
+    {
+        "id": 16,
+        "modalidade": "Cabo de guerra"
+    },
+    {
+        "id": 17,
+        "modalidade": "Caça esportiva"
+    },
+    {
+        "id": 18,
+        "modalidade": "Caiaque"
+    },
+    {
+        "id": 19,
+        "modalidade": "Calistenia"
+    },
+    {
+        "id": 20,
+        "modalidade": "Caminhada"
+    },
+    {
+        "id": 21,
+        "modalidade": "Canoagem"
+    },
+    {
+        "id": 22,
+        "modalidade": "Capoeira"
+    },
+    {
+        "id": 23,
+        "modalidade": "Ciclismo"
+    },
+    {
+        "id": 24,
+        "modalidade": "Corrida"
+    },
+    {
+        "id": 25,
+        "modalidade": "Cricket"
+    },
+    {
+        "id": 26,
+        "modalidade": "Crossfit"
+    },
+    {
+        "id": 27,
+        "modalidade": "Curling"
+    },
+    {
+        "id": 28,
+        "modalidade": "Dardos"
+    },
+    {
+        "id": 29,
+        "modalidade": "Decatlo"
+    },
+    {
+        "id": 30,
+        "modalidade": "Duatlo"
+    },
+    {
+        "id": 31,
+        "modalidade": "Dominó"
+    },
+    {
+        "id": 32,
+        "modalidade": "Dama"
+    },
+    {
+        "id": 33,
+        "modalidade": "Equestre"
+    },
+    {
+        "id": 34,
+        "modalidade": "Escalada"
+    },
+    {
+        "id": 35,
+        "modalidade": "Esgrima"
+    },
+    {
+        "id": 36,
+        "modalidade": "Esportes eletrônicos"
+    },
+    {
+        "id": 37,
+        "modalidade": "Esqui"
+    },
+    {
+        "id": 38,
+        "modalidade": "Fisiculturismo"
+    },
+    {
+        "id": 39,
+        "modalidade": "Frisbee"
+    },
+    {
+        "id": 40,
+        "modalidade": "Futebol"
+    },
+    {
+        "id": 41,
+        "modalidade": "Futebol americano"
+    },
+    {
+        "id": 42,
+        "modalidade": "Futebol de areia"
+    },
+    {
+        "id": 43,
+        "modalidade": "Futevôlei"
+    },
+    {
+        "id": 44,
+        "modalidade": "Futsal"
+    },
+    {
+        "id": 45,
+        "modalidade": "Gamão"
+    },
+    {
+        "id": 46,
+        "modalidade": "Ginástica"
+    },
+    {
+        "id": 47,
+        "modalidade": "Ginástica artística"
+    },
+    {
+        "id": 48,
+        "modalidade": "Ginástica de trampolim"
+    },
+    {
+        "id": 49,
+        "modalidade": "Ginástica rítmica"
+    },
+    {
+        "id": 50,
+        "modalidade": "Golfe"
+    },
+    {
+        "id": 51,
+        "modalidade": "Handebol"
+    },
+    {
+        "id": 52,
+        "modalidade": "Hapkido"
+    },
+    {
+        "id": 53,
+        "modalidade": "Heptatlo"
+    },
+    {
+        "id": 54,
+        "modalidade": "Hipismo"
+    },
+    {
+        "id": 55,
+        "modalidade": "Hóquei"
+    },
+    {
+        "id": 56,
+        "modalidade": "Iatismo"
+    },
+    {
+        "id": 57,
+        "modalidade": "Jet ski racing"
+    },
+    {
+        "id": 58,
+        "modalidade": "Jiu-jitsu"
+    },
+    {
+        "id": 59,
+        "modalidade": "Judô"
+    },
+    {
+        "id": 60,
+        "modalidade": "Karatê"
+    },
+    {
+        "id": 61,
+        "modalidade": "Kart"
+    },
+    {
+        "id": 62,
+        "modalidade": "Kendo"
+    },
+    {
+        "id": 63,
+        "modalidade": "Kenjutsu"
+    },
+    {
+        "id": 64,
+        "modalidade": "Kenpo"
+    },
+    {
+        "id": 65,
+        "modalidade": "Kickboxe"
+    },
+    {
+        "id": 66,
+        "modalidade": "Kitesurfe"
+    },
+    {
+        "id": 67,
+        "modalidade": "Krav maga"
+    },
+    {
+        "id": 68,
+        "modalidade": "Kung fu"
+    },
+    {
+        "id": 69,
+        "modalidade": "Lacrosse"
+    },
+    {
+        "id": 70,
+        "modalidade": "Levantamento de peso"
+    },
+    {
+        "id": 71,
+        "modalidade": "Luta grega"
+    },
+    {
+        "id": 72,
+        "modalidade": "Luta livre"
+    },
+    {
+        "id": 73,
+        "modalidade": "Maratona"
+    },
+    {
+        "id": 74,
+        "modalidade": "Marcha atlética"
+    },
+    {
+        "id": 75,
+        "modalidade": "Meia-maratona"
+    },
+    {
+        "id": 76,
+        "modalidade": "Mergulho"
+    },
+    {
+        "id": 77,
+        "modalidade": "Minigolf"
+    },
+    {
+        "id": 78,
+        "modalidade": "MMA"
+    },
+    {
+        "id": 79,
+        "modalidade": "Montanhismo"
+    },
+    {
+        "id": 80,
+        "modalidade": "Motociclismo"
+    },
+    {
+        "id": 81,
+        "modalidade": "Motocross"
+    },
+    {
+        "id": 82,
+        "modalidade": "Mountain bike"
+    },
+    {
+        "id": 83,
+        "modalidade": "Muay thai"
+    },
+    {
+        "id": 84,
+        "modalidade": "Natação"
+    },
+    {
+        "id": 85,
+        "modalidade": "Outros"
+    },
+    {
+        "id": 86,
+        "modalidade": "Paintball"
+    },
+    {
+        "id": 87,
+        "modalidade": "Pankration"
+    },
+    {
+        "id": 88,
+        "modalidade": "Parapente"
+    },
+    {
+        "id": 89,
+        "modalidade": "Paraquedismo"
+    },
+    {
+        "id": 90,
+        "modalidade": "Parkour"
+    },
+    {
+        "id": 91,
+        "modalidade": "Patinação"
+    },
+    {
+        "id": 92,
+        "modalidade": "Pentatlo"
+    },
+    {
+        "id": 93,
+        "modalidade": "Pesca esportiva"
+    },
+    {
+        "id": 94,
+        "modalidade": "Peteca"
+    },
+    {
+        "id": 95,
+        "modalidade": "Polo"
+    },
+    {
+        "id": 96,
+        "modalidade": "Polo aquático"
+    },
+    {
+        "id": 97,
+        "modalidade": "Pôquer"
+    },
+    {
+        "id": 98,
+        "modalidade": "Queda de braço"
+    },
+    {
+        "id": 99,
+        "modalidade": "Queimada"
+    },
+    {
+        "id": 100,
+        "modalidade": "Rally"
+    },
+    {
+        "id": 101,
+        "modalidade": "Remo"
+    },
+    {
+        "id": 102,
+        "modalidade": "Rodeio"
+    },
+    {
+        "id": 103,
+        "modalidade": "Rugby"
+    },
+    {
+        "id": 104,
+        "modalidade": "Salto com vara"
+    },
+    {
+        "id": 105,
+        "modalidade": "Salto em distância"
+    },
+    {
+        "id": 106,
+        "modalidade": "Saltos ornamentais"
+    },
+    {
+        "id": 107,
+        "modalidade": "Sambo"
+    },
+    {
+        "id": 108,
+        "modalidade": "Sinuca"
+    },
+    {
+        "id": 109,
+        "modalidade": "Skate"
+    },
+    {
+        "id": 110,
+        "modalidade": "Slackline"
+    },
+    {
+        "id": 111,
+        "modalidade": "Solo"
+    },
+    {
+        "id": 112,
+        "modalidade": "Squash"
+    },
+    {
+        "id": 113,
+        "modalidade": "Stand up paddle"
+    },
+    {
+        "id": 114,
+        "modalidade": "Sumô"
+    },
+    {
+        "id": 115,
+        "modalidade": "Surfe"
+    },
+    {
+        "id": 116,
+        "modalidade": "Taekwondo"
+    },
+    {
+        "id": 117,
+        "modalidade": "Tênis"
+    },
+    {
+        "id": 118,
+        "modalidade": "Tênis de mesa"
+    },
+    {
+        "id": 119,
+        "modalidade": "Tetratlo"
+    },
+    {
+        "id": 120,
+        "modalidade": "Tiro ao alvo"
+    },
+    {
+        "id": 121,
+        "modalidade": "Tiro com arco"
+    },
+    {
+        "id": 122,
+        "modalidade": "Tiro esportivo"
+    },
+    {
+        "id": 123,
+        "modalidade": "Triatlo"
+    },
+    {
+        "id": 124,
+        "modalidade": "Vela"
+    },
+    {
+        "id": 125,
+        "modalidade": "Volei"
+    },
+    {
+        "id": 126,
+        "modalidade": "Volei de praia"
+    },
+    {
+        "id": 127,
+        "modalidade": "Windsurf"
+    },
+    {
+        "id": 128,
+        "modalidade": "Wingsuit"
+    },
+    {
+        "id": 129,
+        "modalidade": "Wrestling"
+    },
+    {
+        "id": 130,
+        "modalidade": "Xadrez"
+    },
+    {
+        "id": 131,
+        "modalidade": "Yoga"
+    },
+    {
+        "id": 132,
+        "modalidade": "Zumba"
+    }
+]

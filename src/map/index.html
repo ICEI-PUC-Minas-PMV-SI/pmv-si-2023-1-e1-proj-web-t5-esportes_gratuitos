@@ -12,14 +12,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfBucnYgJV5eUJUhQq_V_5NeFABTNIXvA" defer ></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuBW-Ju0Fp7M-ZzXpWx_cyt9KgLzepKik" defer ></script>
     
     <link rel="stylesheet" href="../reset.css">
     
     <link rel="stylesheet/less" type="text/css" href="index.scss" />
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
     
-    <script type="text/javascript" src="index.js"></script>
+    <script type="module" src="../api/storage.js" defer="true"></script>
+    <script type="text/javascript" src="index.js" defer="true"></script>
 
     <title>VEM</title>
 </head>
@@ -28,56 +29,50 @@
         <div id="shadow" class="shadow" onclick="closeElement()">.</div>
 
         <div id="sidebar" class="sidebar">
-            <img src="../assets/logo.svg" alt="">
+            <img src="../../assets/logo.svg" alt="">
             <div class="controls">
-                <div class="modalidade">
+                <div class="control">
                     <p>Modalidade:</p>
                     <div class="select">
-                        <select name="modalidade" id="modalidade">
-                            <option selected disabled>Basquete</option>
-                            <option value="futebol" >futebol</option>
-                            <option value="futebol">Vôlei</option>
-                            <option value="futebol">Dança</option>
-                            <option value="futebol">Badminton</option>
-                            <option value="futebol">Handebol</option>
-                            <option value="futebol">Judô</option>
-                            <option value="futebol">Natação</option>
-                            <option value="futebol">Tênis</option>
+                        <select name="modalidades" class="form-select" id="modalidades">
+                            <option value="">Selecionar modalidade</option>
                         </select>
                     </div>
                 </div>
-                <div class="sugestoes">
-                    <p>Sugestôes</p>
+                <!-- <div class="control">
+                    <p>Sugestões</p>
                     <div class="toggle-container">
                         <label class="switch">
-                            <input type="checkbox" class="toggle-input">
-                        <div class="slider">
-                            <button class="btn-toggle"></button>
-                        </div>
-                    </label>
+                            <input type="checkbox" class="toggle-input" id="sugestoes">
+                            <div class="slider">
+                                <button class="btn-toggle"></button>
+                            </div>
+                        </label>
+                    </div>
+                </div> -->
+                <div class="control">
+                    <p>Acessibilidade</p>
+                    <div class="toggle-container">
+                        <label class="switch">
+                            <input type="checkbox" class="toggle-input" id="acessibilidade">
+                            <div class="slider">
+                                <button class="btn-toggle"></button>
+                            </div>
+                        </label>
                     </div>
                 </div>
-                <div class="acessivel">
-                    <p>Acessível</p>
-                    <div class="toggle-container">
-                        <label class="switch">
-                            <input type="checkbox" class="toggle-input">
-                        <div class="slider">
-                            <button class="btn-toggle"></button>
-                        </div>
-                    </label>
-                    </div>
+                <div class="control">
+                    <p>Distância</p>
+                    <div class="toggle-container" id="distance-value"></div>
+                    <input type="range" min="0" max="50" step="0.2" value="0" id="distancia">
                 </div>
             </div>
             <div class="footer-actions">
-                <button>
-                    <i class="bi bi-download"></i>
-                </button>
-                <button onclick="closeElement()"> 
+                <button onclick="clearFilters()"> 
                     <i class="bi bi-x-lg"></i>
                 </button>
-                <button class="search">
-                    <a href="../group/"><i class="bi bi-search"></i></a>
+                <button class="search" onclick="searchFilters()">
+                    <i class="bi bi-search"></i></a>
                 </button>
             </div>
         </div>
@@ -86,13 +81,13 @@
             <button onclick="openElement('sidebar')">
                 <i class="bi bi-sliders"></i>
             </button>
-            <input type="text" placeholder="Buscar">
-            <a href="/profile/">
+            <input type="text" placeholder="Buscar" id="nome">
+            <a href="/profile/"> 
                 <i class="bi bi-person-circle"></i>
             </a>
         </div>
 
-        <div class="add-group" onclick="">
+        <div class="add-group">
             <button onclick="openElement('modal')">
                 <i class="bi bi-person-plus"></i>
             </button>
@@ -101,10 +96,10 @@
         <div id="group" class="group">
             <div class="group-avatar" alt=""></div>
             <div class="group-description">
-                <span class="group-name">Vôlei do Lalá</span> <br>
-                <span class="group-modality">Vôlei</span>
+                <span id="group-name" class="group-name"></span> <br>
+                <span id="group-modality" class="group-modality"></span>
             </div>
-            <a href="/group/">
+            <a id="group-button">
                 <i class="bi bi-box-arrow-in-right"></i>
             </a>
         </div>
