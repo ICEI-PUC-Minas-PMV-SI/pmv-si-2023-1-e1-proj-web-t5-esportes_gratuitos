@@ -37,7 +37,7 @@ function preencherDias() {
       checkMarker(li);
     });
     ulElement.appendChild(li);
-    if (grupo.reunioes === dia.dia) {
+    if (grupo.dia === dia.dia) {
       checkMarker(li);
     }
   }

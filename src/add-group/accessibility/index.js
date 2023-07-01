@@ -18,7 +18,8 @@ function checkMarker(element) {
     }
     checkedElement = element;
     var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
-    grupo.acessibilidade = parseInt(checkedElement.getAttribute("value"));
+    var boolString = checkedElement.getAttribute("value");
+    grupo.acessibilidade = boolString.toLowerCase() === "true";
     localStorage.setItem("adicionar_grupo", JSON.stringify(grupo));
   } else {
     accessibility = "";
