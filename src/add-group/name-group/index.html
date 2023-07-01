@@ -27,7 +27,7 @@
 
     <title>VEM</title>
   </head>
-  <body>
+  <body onload="init()">
     <header>
       <a href="/map/" class="home">
         <i class="bi bi-house"></i>
@@ -42,14 +42,19 @@
     </header>
     <main>
       <div id="modality" class="picker">
-        <input type="text" id="inputNomeGrupo" class="input-nome-grupo" />
+        <input
+          placeholder="Insira um nome para o grupo"
+          type="text"
+          id="inputNomeGrupo"
+          class="input-nome-grupo"
+        />
       </div>
     </main>
     <footer>
       <a href="/add-group/hours/" class="back">
         <i class="bi bi-arrow-left"></i>
       </a>
-      <a href="/add-group/description/" class="forward">
+      <a href="/add-group/description/" id="forward" class="forward">
         <i class="bi bi-arrow-right"></i>
       </a>
     </footer>

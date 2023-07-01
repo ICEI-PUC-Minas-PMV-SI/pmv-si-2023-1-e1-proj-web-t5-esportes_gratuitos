@@ -2,8 +2,18 @@ var hour = "";
 var hourElement = null;
 var minute = "";
 var minuteElement = null;
+var subtitle = document.getElementById("subtitle");
+var reuniaoAtual = {};
+function init() {
+  var verificar = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  if (verificar.reunioes === undefined || verificar.reunioes.length === 0) {
+    window.location.replace("/add-group/days");
+  }
+}
 
-function init() {}
+function proximaReuniao() {
+  subtitle.innerHTML = reuniaoAtual;
+}
 
 function checkMarker(type, element) {
   if (type == "hour") {

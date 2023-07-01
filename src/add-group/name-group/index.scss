@@ -61,11 +61,14 @@ main {
   align-items: center;
   flex-grow: 1;
   .input-nome-grupo {
-    border: 0;
-    border-radius: 10px;
+    width: 500px;
     padding: 15px;
-    font-size: 25px;
-    background-color: #0055bd77;
+    outline: 0;
+    font-size: 30px;
+    border-width: 0 0 2px;
+    border-color: var(--light-green);
+    background-color: var(--dark-blue);
+    border-bottom: 2px solid --light-green;
     color: #f3f3f3;
   }
   .input-nome-grupo:focus {

@@ -22,12 +22,12 @@
 
     <link rel="stylesheet/less" type="text/css" href="./index.scss" />
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
-
+    <script type="module" src="./storage.js"></script>
     <script type="text/javascript" src="./index.js"></script>
 
     <title>VEM</title>
   </head>
-  <body>
+  <body onload="init()">
     <header>
       <a href="/map/" class="home">
         <i class="bi bi-house"></i>
@@ -42,36 +42,14 @@
     </header>
     <main>
       <div id="days" class="picker">
-        <ul>
-          <li onclick="checkMarker(this)">
-            Domingo <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Segunda <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Terça <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Quarta <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Quinta <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Sexta <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Sábado <i class="bi bi-check2-circle"></i>
-          </li>
-        </ul>
+        <ul id="listaDias"></ul>
       </div>
     </main>
     <footer>
       <a href="/add-group/modality/" class="back">
         <i class="bi bi-arrow-left"></i>
       </a>
-      <a href="" id="forward">
+      <a href="/add-group/hours/" id="forward">
         <i class="bi bi-arrow-right"></i>
       </a>
     </footer>

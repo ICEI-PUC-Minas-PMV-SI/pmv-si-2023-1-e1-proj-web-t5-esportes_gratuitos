@@ -22,7 +22,7 @@
 
     <link rel="stylesheet/less" type="text/css" href="./index.scss" />
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
-
+    <script type="module" src="./node.js"></script>
     <script type="text/javascript" src="./index.js"></script>
 
     <title>VEM</title>
@@ -42,50 +42,7 @@
     </header>
     <main>
       <div id="modality" class="picker">
-        <ul>
-          <li onclick="checkMarker(this)">
-            Atletismo <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Badminton <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Basquete <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Corrida <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Futebol<i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Futsal <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Handebal <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Judô <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Natação <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Peteca <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Tênis de campo <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Tênis de mesa <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Vôlei <i class="bi bi-check2-circle"></i>
-          </li>
-          <li onclick="checkMarker(this)">
-            Xadrez <i class="bi bi-check2-circle"></i>
-          </li>
-        </ul>
+        <ul id="listaModalidade"></ul>
       </div>
     </main>
     <footer>

@@ -1,25 +1,16 @@
 var modality = "";
 var checkedElement = null;
 
-function init() {}
+function init() {
+  var verificar = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  //if (verificar.reunioes === undefined || verificar.reunioes.length === 0) {
+  // window.location.replace("/add-group/hours");
+  //}
+  var inputNomeGrupo = document.getElementById("inputNomeGrupo");
 
-function checkMarker(element) {
-  if (element.childNodes[0] != modality) {
-    modality = element.childNodes[0];
-    element.childNodes[1].setAttribute("marked", "true");
-
-    if (null != checkedElement) {
-      checkedElement.childNodes[1].removeAttribute("marked");
-    }
-
-    checkedElement = element;
-  } else {
-    modality = "";
-    element.childNodes[1].removeAttribute("marked");
-  }
+  inputNomeGrupo.addEventListener("change", (event) => {
+    var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+    grupo.nome = event.target.value;
+    localStorage.setItem("adicionar_grupo", JSON.stringify(grupo));
+  });
 }
-/////////////PEGAR O NOME SELECIONADO//////////
-document.addEventListener("DOMContentLoaded", function () {
-  var inputNomeGrupo = document.getElementById("inputNomeGrupo").value;
-});
-///////////////////////////////////////

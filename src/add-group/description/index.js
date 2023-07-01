@@ -1,26 +1,22 @@
 var modality = "";
 var checkedElement = null;
 
-function init() {}
+function init() {
+  var verificar = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
 
-function checkMarker(element) {
-  if (element.childNodes[0] != modality) {
-    modality = element.childNodes[0];
-    element.childNodes[1].setAttribute("marked", "true");
-
-    if (null != checkedElement) {
-      checkedElement.childNodes[1].removeAttribute("marked");
-    }
-
-    checkedElement = element;
-  } else {
-    modality = "";
-    element.childNodes[1].removeAttribute("marked");
+  if (
+    verificar.nome === undefined ||
+    verificar.modalidade === undefined ||
+    verificar.reunioes === undefined ||
+    verificar.reunioes.length === 0
+  ) {
+    window.location.replace("/add-group/name-group");
   }
-}
+  var inputDescricao = document.getElementById("inputDescricao");
 
-///////////////////////////////////////
-/////////PEGAR DESCRICAO FEITA///////
-document.addEventListener("DOMContentLoaded", function () {
-  var inputDescricao = document.getElementById("inputDescricao").value;
-});
+  inputDescricao.addEventListener("change", (event) => {
+    var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+    grupo.descricao = event.target.value;
+    localStorage.setItem("adicionar_grupo", JSON.stringify(grupo));
+  });
+}

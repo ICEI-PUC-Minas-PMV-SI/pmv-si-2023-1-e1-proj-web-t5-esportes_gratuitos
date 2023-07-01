@@ -1,77 +1,44 @@
-/*
 var days = [];
 var checkedElement = null;
 
-function init() {}
+function init() {
+  preencherDias();
+  var verificar = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  if (verificar.modalidade === undefined) {
+    window.location.replace("/add-group/modality");
+  }
+}
 
 function checkMarker(element) {
-  let index = days.indexOf(element.childNodes[0]);
+  let index = days.indexOf(element.getAttribute("value"));
 
   if (index < 0) {
-    days.push(element.childNodes[0]);
+    days.push(element.getAttribute("value"));
     element.childNodes[1].setAttribute("marked", "true");
   } else {
     days.splice(index, 1);
     element.childNodes[1].removeAttribute("marked");
   }
+  var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  grupo.reunioes = window.dias.filter((d) => {
+    return days.indexOf(d.id.toString()) >= 0;
+  });
+  localStorage.setItem("adicionar_grupo", JSON.stringify(grupo));
 }
-//PEGAR OS DIAS ESCOLHIDOS PELO USUÁRIO
 
-document.addEventListener("DOMContentLoaded", function () {
-  const liElements = document.querySelectorAll("#days li");
-  var nextPage = document.getElementById("forward");
-  var ultimoObj; // Definindo a variável fora dos eventos
-
-  liElements.forEach((liElement) => {
-    liElement.addEventListener("click", function () {
-      const day = this.textContent.trim().split(" ")[0];
-      listaGrupo = JSON.parse(localStorage.getItem("lista_grupos"));
-      ultimoObj = listaGrupo[listaGrupo.length - 1];
-      ultimoObj.dia = day;
+function preencherDias() {
+  const ulElement = document.getElementById("listaDias");
+  var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  for (const dia of window.dias) {
+    const li = document.createElement("li");
+    li.value = dia.id;
+    li.innerHTML = dia.dia + ' <i class="bi bi-check2-circle"></i>';
+    li.addEventListener("click", () => {
+      checkMarker(li);
     });
-  });
-
-  nextPage.addEventListener("click", () => {
-    localStorage.setItem("lista_grupos", JSON.stringify(listaGrupo));
-  });
-});
-*/
-///////////////////////////////////
-var days = [];
-var checkedElement = null;
-
-function init() {}
-
-function checkMarker(element) {
-  let index = days.indexOf(element.childNodes[0]);
-
-  if (index < 0) {
-    days.push(element.childNodes[0]);
-    element.childNodes[1].setAttribute("marked", "true");
-  } else {
-    days.splice(index, 1);
-    element.childNodes[1].removeAttribute("marked");
+    ulElement.appendChild(li);
+    if (grupo.reunioes === dia.dia) {
+      checkMarker(li);
+    }
   }
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-  const liElements = document.querySelectorAll("#days li");
-  var nextPage = document.getElementById("forward");
-  var ultimoObj;
-  var listaGrupo;
-  liElements.forEach((liElement) => {
-    if (liElement.hasAttribute("marked")) {
-      listaGrupo = JSON.parse(localStorage.getItem("lista_grupos"));
-      ultimoObj = listaGrupo[listaGrupo.length - 1];
-      ultimoObj.dia = [];
-      const day = liElement.textContent.trim().split(" ")[0];
-      ultimoObj.dia.push(day);
-    }
-  });
-
-  nextPage.addEventListener("click", (e) => {
-    e.preventDefault();
-    localStorage.setItem("lista_grupos", JSON.stringify(listaGrupo));
-    console.log(ultimoObj);
-  });
-});

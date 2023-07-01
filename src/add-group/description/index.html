@@ -27,7 +27,7 @@
 
     <title>VEM</title>
   </head>
-  <body>
+  <body onload="init()">
     <header>
       <a href="/map/" class="home">
         <i class="bi bi-house"></i>
@@ -42,7 +42,11 @@
     </header>
     <main>
       <div id="modality" class="picker">
-        <textarea id="inputDescricao" class="input-descricao"></textarea>
+        <textarea
+          placeholder="Insira uma descrição para o grupo"
+          id="inputDescricao"
+          class="input-descricao"
+        ></textarea>
       </div>
     </main>
     <footer>

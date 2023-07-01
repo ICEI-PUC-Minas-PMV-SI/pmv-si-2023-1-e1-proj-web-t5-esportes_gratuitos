@@ -8,6 +8,8 @@ function init() {
   if (location.href.split("#")[1] === "suggestion") {
     nextButton.href = "/add-group/location";
   }
+
+  preencherModalidade();
 }
 
 function checkMarker(element) {
@@ -20,9 +22,31 @@ function checkMarker(element) {
     }
 
     checkedElement = element;
+
+    var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+    grupo.modalidade = parseInt(checkedElement.getAttribute("value"));
+    localStorage.setItem("adicionar_grupo", JSON.stringify(grupo));
   } else {
     modality = "";
     element.childNodes[1].removeAttribute("marked");
+  }
+}
+
+function preencherModalidade() {
+  const ulElement = document.getElementById("listaModalidade");
+  var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  for (const modalidade of window.modalidades) {
+    const li = document.createElement("li");
+    li.value = modalidade.id;
+    li.innerHTML =
+      modalidade.modalidade + ' <i class="bi bi-check2-circle"></i>';
+    li.addEventListener("click", () => {
+      checkMarker(li);
+    });
+    ulElement.appendChild(li);
+    if (grupo.modalidade === modalidade.id) {
+      checkMarker(li);
+    }
   }
 }
 ////////////////////////////////////
@@ -46,31 +70,30 @@ function generateUUID() {
   });
 }
 /////////PEGAR A MODALIDADE ESCOLHIDA////////
-
+/*
 var listaGrupo = [];
 
-document.addEventListener("DOMContentLoaded", function () {
-  const liElements = document.querySelectorAll("#modality li");
-  var nextPage = document.getElementById("forward");
-  liElements.forEach((liElement) => {
-    liElement.addEventListener("click", function () {
-      const modalityName = this.textContent.trim().split(" ")[0];
-      if (localStorage.getItem("lista_grupos") == null) {
-        listaGrupo.push({
-          id: generateUUID(),
-          modalidade: modalityName,
-        });
-      } else {
-        listaGrupo = JSON.parse(localStorage.getItem("lista_grupos"));
-        listaGrupo.push({
-          id: generateUUID(),
-          modalidade: modalityName,
-        });
-        localStorage.setItem("lista_usuarios", JSON.stringify(listaGrupo));
-      }
-    });
-  });
-  nextPage.addEventListener("click", () => {
-    localStorage.setItem("lista_grupos", JSON.stringify(listaGrupo));
+const liElements = document.querySelectorAll("#modality li");
+var nextPage = document.getElementById("forward");
+liElements.forEach((liElement) => {
+  liElement.addEventListener("click", function () {
+    const modalityName = this.textContent.trim().split(" ")[0];
+    if (localStorage.getItem("lista_grupos") == null) {
+      listaGrupo.push({
+        id: generateUUID(),
+        modalidade: modalityName,
+      });
+    } else {
+      listaGrupo = JSON.parse(localStorage.getItem("lista_grupos"));
+      listaGrupo.push({
+        id: generateUUID(),
+        modalidade: modalityName,
+      });
+      localStorage.setItem("lista_usuarios", JSON.stringify(listaGrupo));
+    }
   });
 });
+nextPage.addEventListener("click", () => {
+  localStorage.setItem("lista_grupos", JSON.stringify(listaGrupo));
+});
+*/
