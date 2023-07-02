@@ -102,13 +102,15 @@ Cenário 1: Você é uma pessoa que deseja criar uma nova conta para participar 
 | Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 | ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
 | 1                                          | SIM             | 5                    | 1:57.81 minutos                 |
-| 2                                          | SIM             | 5                    | 17.11 segundos                  |
+| 2                                          | SIM             | 5                    | 53.58 segundos                  |
 | 3                                          | SIM             | 5                    | 39.09 segundos                  |
 |                                            |                 |                      |                                 |
 | **Média**                                  | 100%            | 5                    | 28.02 segundos                  |
 | **Tempo para conclusão pelo especialista** | SIM             | 5                    | 8.66 segundos                   |
 
-    Comentários dos usuários: Cadastro é fácil e prático de fazer
+    Comentários dos usuários: Cadastro é fácil e prático de fazer;
+    Gostei da interface do projeto e também da agilidade e praticidade ao criar a conta e fazer o login;
+    
 
 
 
