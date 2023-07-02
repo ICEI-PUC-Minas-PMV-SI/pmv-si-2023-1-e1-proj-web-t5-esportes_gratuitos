@@ -56,6 +56,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Dados de entrada**    | Preencher o formulário da criação do grupo                                                                                                                                                                                                |
 |   **Resultado obtido**    | Sucesso.                                                                                                                                                                                                                                            |
 
+|     **Caso de Teste**     | **CT05 - Filtrar os grupos esportivos na tela**      |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Usuário seleciona o filtro desejado e aperta para buscar o grupo desejado de acordo com o filtro selecionado|
+| **Requisitos associados** | RF-004                                                                                                                                                                                                                                           |
+|  **Resultado esperado**   | Visualização de grupos esportivos através de algum tipo de filtro              |
+|   **Dados de entrada**    | Selecionar o filtro desejado na tela de filtros                                                                                                                                                                                                |
+|   **Resultado obtido**    | Sucesso.                                                                                                                                                                                                                                            |
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -79,6 +87,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | --------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Requisito Associado               | RF-003 - Permitir que o usuário (cadastrado) registre novos grupos esportivos, indicando local, horário, acessibilidade, entre outras informações        |
 | Link do vídeo do teste realizado: | https://www.loom.com/share/40b3b54df1f54216b786c7005e1f2390?sid=b68a4dc7-7106-4064-977b-7cd84580567d |
+
+| _Caso de Teste_                   | **CT05 - Filtrar os grupos esportivos na tela**   |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RF-004 - Permitir que o usuário busque por grupos esportivos, delimitando por modalidade, acessibilidade e/ou distância        |
+| Link do vídeo do teste realizado: | https://www.loom.com/share/ba5021de00d84a6dab3c3a094aa9192e?sid=809255c7-54ca-4e76-b324-8f0f11340e6b |
 
 
 ## Avaliação dos Testes de Software
