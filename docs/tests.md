@@ -26,7 +26,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 |     **Caso de Teste**     | **CT01 - Criar conta**                                                                                                                                                          |
 | :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     **Procedimento**      | 1) Usuário informa nome, idade,,telefone, email e senha e clica no botão "Criar conta".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. |
+|     **Procedimento**      | 1) Usuário informa nome, idade,telefone, email e senha e clica no botão "Criar conta".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. |
 | **Requisitos associados** | RF-001                                                                                                                                                                          |
 |  **Resultado esperado**   | Cadastro de usuário                                                                                                                                                             |
 |   **Dados de entrada**    | Inserção de dados válidos no formulário de cadastro.                                                                                                                            |
@@ -39,7 +39,13 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |  **Resultado esperado**   | Login de usuário                                                                                                                                                                                                                                    |
 |   **Dados de entrada**    | Inserção de dados válidos no formulário de cadastro.                                                                                                                                                                                                |
 |   **Resultado obtido**    | Sucesso.                                                                                                                                                                                                                                            |
-
+|     **Caso de Teste**     | **CT03 - Trocar de senha do usuário**                                                                                                                                                          |
+| :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Usuário clica em "Esqueci minha senha" na tela de login, após isso ele informa o email cadastro e o sistema informa o código de recuperação de senha, depois disso o usuário pode mudar sua senha e realizar o login com a nova senha. |
+| **Requisitos associados** | RF-001                                                                                                                                                                          |
+|  **Resultado esperado**   | Mudança de senha do usuário                                                                                                                                                            |
+|   **Dados de entrada**    | Inserção de dados válidos no formulário de 'Esqueci minha senha'.                                                                                                                            |
+|   **Resultado obtido**    | Sucesso.                                                                                                                                                                        |
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -53,6 +59,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | --------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Requisito Associado               | RF-002 - Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado        |
 | Link do vídeo do teste realizado: | https://www.loom.com/share/c4801b63583a4caf8907d0e0e4a61d7d?sid=216e6102-e606-4980-aa3f-ab3d5ccd7423 |
+
+| _Caso de Teste_                   | **CT03 - Trocar de senha do usuário**                                                                               |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RF-002 - Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado        |
+| Link do vídeo do teste realizado: | https://www.loom.com/share/788bba7e719646cf88ab01aaaeb3e0de?sid=efeb2b3d-5c5b-4938-8131-8a113ce435e1 |
 
 ## Avaliação dos Testes de Software
 
