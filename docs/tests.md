@@ -39,13 +39,15 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |  **Resultado esperado**   | Login de usuário                                                                                                                                                                                                                                    |
 |   **Dados de entrada**    | Inserção de dados válidos no formulário de cadastro.                                                                                                                                                                                                |
 |   **Resultado obtido**    | Sucesso.                                                                                                                                                                                                                                            |
-|     **Caso de Teste**     | **CT03 - Trocar de senha do usuário**                                                                                                                                                          |
+
+|     **Caso de Teste**     | **CT03 - Trocar de senha do usuário**  |
 | :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     **Procedimento**      | 1) Usuário clica em "Esqueci minha senha" na tela de login, após isso ele informa o email cadastro e o sistema informa o código de recuperação de senha, depois disso o usuário pode mudar sua senha e realizar o login com a nova senha. |
 | **Requisitos associados** | RF-001                                                                                                                                                                          |
 |  **Resultado esperado**   | Mudança de senha do usuário                                                                                                                                                            |
 |   **Dados de entrada**    | Inserção de dados válidos no formulário de 'Esqueci minha senha'.                                                                                                                            |
-|   **Resultado obtido**    | Sucesso.                                                                                                                                                                        |
+|   **Resultado obtido**    | Sucesso.                      |
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
