@@ -6,7 +6,7 @@ document.getElementById("inputSenha").addEventListener("keypress", (e) => {
     }
 });
 
-function loginUsuario() {
+async function loginUsuario() {
     var inputEmail = document.getElementById("inputEmail");
     var inputSenha = document.getElementById("inputSenha");
 
@@ -30,8 +30,12 @@ function loginUsuario() {
             user.email == inputEmail.value && user.senha == inputSenha.value
     );
     if (user) {
-        localStorage.setItem("usuarioLogadoID", user.id);
-        window.location.replace("/map");
+        try {
+          localStorage.setItem("usuarioLogadoID", user.id);
+          await showLoading('Entrando...')
+        } finally {
+          window.location.replace("/map");
+        }
     } else {
         showToast("E-mail e/ou senha incorreto(s)!");
         return;
@@ -51,4 +55,19 @@ function showToast(message) {
     setTimeout(() => {
         toast.classList.remove("show-toast");
     }, 3000);
+}
+
+function showLoading(message) {
+  return new Promise(resolve => {
+      let loading = document.getElementById("loading");
+      let loadingMessage = loading.querySelector('.loading-message');
+  
+      loadingMessage.innerHTML = message;
+      loading.style.display = 'flex';
+
+      setTimeout(() => {
+          loading.style.display = 'none';
+          resolve();
+      }, 2000);
+  })
 }
