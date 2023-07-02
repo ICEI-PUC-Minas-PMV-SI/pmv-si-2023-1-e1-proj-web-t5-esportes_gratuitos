@@ -14,7 +14,7 @@
                 "id": 1,
                 "dia": "Segunda",
                 "horario": {
-                    "hora": 20,
+                    "horas": 20,
                     "minutos": 0
                 }
             },
@@ -22,7 +22,7 @@
                 "id": 2,
                 "dia": "Terça",
                 "horario": {
-                    "hora": 20,
+                    "horas": 20,
                     "minutos": 0
                 }
             },
@@ -30,7 +30,7 @@
                 "id": 6,
                 "dia": "Sábado",
                 "horario": {
-                    "hora": 16,
+                    "horas": 16,
                     "minutos": 30
                 }
             }
@@ -51,7 +51,7 @@
                 "id": 3,
                 "dia": "Quarta",
                 "horario": {
-                    "hora": 19,
+                    "horas": 19,
                     "minutos": 0
                 }
             }
@@ -72,7 +72,7 @@
                 "id": 2,
                 "dia": "Terça",
                 "horario": {
-                    "hora": 18,
+                    "horas": 18,
                     "minutos": 0
                 }
             },
@@ -80,7 +80,7 @@
                 "id": 4,
                 "dia": "Quinta",
                 "horario": {
-                    "hora": 18,
+                    "horas": 18,
                     "minutos": 0
                 }
             }
@@ -101,7 +101,7 @@
                 "id": 0,
                 "dia": "Domingo",
                 "horario": {
-                    "hora": 10,
+                    "horas": 10,
                     "minutos": 0
                 }
             },
@@ -109,7 +109,7 @@
                 "id": 6,
                 "dia": "Sexta",
                 "horario": {
-                    "hora": 19,
+                    "horas": 19,
                     "minutos": 0
                 }
             }
@@ -130,7 +130,7 @@
                 "id": 1,
                 "dia": "Segunda",
                 "horario": {
-                    "hora": 16,
+                    "horas": 16,
                     "minutos": 0
                 }
             },
@@ -138,7 +138,7 @@
                 "id": 3,
                 "dia": "Quarta",
                 "horario": {
-                    "hora": 16,
+                    "horas": 16,
                     "minutos": 0
                 }
             },
@@ -146,7 +146,7 @@
                 "id": 5,
                 "dia": "Sexta",
                 "horario": {
-                    "hora": 16,
+                    "horas": 16,
                     "minutos": 0
                 }
             }
