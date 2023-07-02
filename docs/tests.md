@@ -75,6 +75,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | Requisito Associado               | RF-002 - Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado        |
 | Link do vídeo do teste realizado: | https://www.loom.com/share/788bba7e719646cf88ab01aaaeb3e0de?sid=efeb2b3d-5c5b-4938-8131-8a113ce435e1 |
 
+| _Caso de Teste_                   | **CT04 - Criar um grupo esportivo**                 |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Requisito Associado               | RF-003 - Permitir que o usuário (cadastrado) registre novos grupos esportivos, indicando local, horário, acessibilidade, entre outras informações        |
+| Link do vídeo do teste realizado: | https://www.loom.com/share/40b3b54df1f54216b786c7005e1f2390?sid=b68a4dc7-7106-4064-977b-7cd84580567d |
+
+
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
