@@ -1,6 +1,8 @@
 var group = {};
 
 function init() {
+  verifyUser();
+
   group = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
   if (hasMissingHours()) {
     window.location.replace("/add-group/hours");
@@ -50,4 +52,14 @@ function showToast(message) {
   setTimeout(() => {
     toast.classList.remove('show-toast');
   }, 3000);
+}
+
+function verifyUser() {
+  const userList = JSON.parse(localStorage.getItem('lista_usuarios') || '[]');
+  const userId = localStorage.getItem('usuarioLogadoID');
+  var user = userList.find(item => item.id === userId);
+
+  if (!userId || !user) {
+      window.location.replace('/login');
+  }
 }

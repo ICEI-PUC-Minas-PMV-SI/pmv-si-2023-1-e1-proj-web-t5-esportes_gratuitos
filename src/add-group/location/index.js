@@ -1,6 +1,8 @@
 var map;
 
 function init() {
+    verifyUser();
+
     var options = {
         center: new google.maps.LatLng(
             -21.786642989870952,
@@ -39,46 +41,57 @@ function previous() {
 
 async function next() {
     group.localizacao = [map.getCenter().lat(), map.getCenter().lng()];
-    localStorage.setItem('adicionar_grupo', JSON.stringify(group));
+    localStorage.setItem("adicionar_grupo", JSON.stringify(group));
 
     try {
-        var groups = JSON.parse(localStorage.getItem('grupos') || '[]');
+        var groups = JSON.parse(localStorage.getItem("grupos") || "[]");
         groups.push({
             id: Date.now(),
-            ...group
+            ...group,
         });
         await showLoading("Criando grupo ");
-        localStorage.setItem('grupos', JSON.stringify(groups));
+        localStorage.setItem("grupos", JSON.stringify(groups));
     } finally {
         window.location.replace("/map");
     }
 }
 
 function showLoading(message) {
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
         let loading = document.getElementById("loading");
-        let loadingMessage = loading.querySelector('.loading-message');
-    
+        let loadingMessage = loading.querySelector(".loading-message");
+
         loadingMessage.innerHTML = message;
-        loading.style.display = 'flex';
+        loading.style.display = "flex";
 
         setTimeout(() => {
             showToast("Grupo criado com sucesso");
         }, 1000);
-    
+
         setTimeout(() => {
-            loading.style.display = 'none';
+            loading.style.display = "none";
             resolve();
         }, 2000);
-    })
+    });
 }
 
 function showToast(message) {
     let toast = document.getElementById("toast");
     toast.innerHTML = message;
-    toast.classList.add('show-toast');
-    
+    toast.classList.add("show-toast");
+
     setTimeout(() => {
-      toast.classList.remove('show-toast');
+        toast.classList.remove("show-toast");
     }, 3000);
+}
+
+function verifyUser() {
+    const userList = JSON.parse(localStorage.getItem('lista_usuarios') || '[]');
+    const userId = localStorage.getItem('usuarioLogadoID');
+    var user = userList.find(item => item.id === userId);
+  
+    if (!userId || !user) {
+        window.location.replace('/login');
+    }
   }
+  

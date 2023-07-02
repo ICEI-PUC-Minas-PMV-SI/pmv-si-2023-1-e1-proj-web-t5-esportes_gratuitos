@@ -16,7 +16,8 @@
     
     <link rel="stylesheet/less" type="text/css" href="index.scss" />
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
-    
+
+    <script type="module" src="../api/storage.js" defer="true"></script>
     <script type="text/javascript" src="index.js"></script>
 
     <title>VEM</title>
@@ -25,40 +26,20 @@
     <div id="map"></div>
     <div class="wrapper">
         <div class="header">
-            <a href="/group/"><i class="bi bi-arrow-left"></i></a>
-            <a><i class="bi bi-share"></i></a>
+            <button onclick="returnToGroup()"><i class="bi bi-arrow-left"></i></button>
         </div>
         <div class="content">
             <div class="title">
                 <div class="name">
-                    <h1>VÔLEI DO LALÁ</h1>
-                    <h2>Vôlei</h2>
+                    <h1>PARTICIPANTES</h1>
+                    <h2 id="name"></h2>
                 </div>
-                <img src="../assets/acessibility.svg" alt="">
             </div>
-            <div class="lista-participantes">
-                <div class="participantes-titulo">
-                    <h2>Participantes</h2>
-                </div>
-                <div class="participante-box">
-                    <i class="bi bi-person-circle"></i>
-                    <h2>Nome do participante</h2>
-                    <p>(99)9999-9999</p>
-                    <p></p>
-                </div>
-                <div class="participante-box">
-                    <i class="bi bi-person-circle"></i>
-                    <h2>Nome do participante</h2>
-                    <p>(99)9999-9999</p>
-                    <p></p>
-                </div>
-
-
-
+            <div class="lista-participantes" id="members">
             </div>
         </div>
       
     </div>
-
+    <div id="toast"></div>
 </body>
 </html>

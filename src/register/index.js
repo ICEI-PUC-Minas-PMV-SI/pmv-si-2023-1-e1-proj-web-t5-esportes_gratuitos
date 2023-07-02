@@ -1,36 +1,88 @@
-function validateForm() {
-  var loginURL = "../login";
-  var nome = document.getElementById("inputNome").value;
-  var idade = document.getElementById("inputIdade").value;
-  var celular = document.getElementById("inputCelular").value;
-  var email = document.getElementById("inputEmail").value;
-  var senha = document.getElementById("inputSenha").value;
-  var senha2 = document.getElementById("inputSenha2").value;
-
-  if (
-    nome === "" ||
-    idade == "" ||
-    celular === "" ||
-    email === "" ||
-    senha === "" ||
-    senha2 === ""
-  ) {
-    alert("preencha todos os campos para se cadastrar");
-    return;
-  } else if (senha !== senha2) {
-    alert("verifique se as senhas estão iguais");
-  } else {
-    addData();
-    alert("cadastro feito com sucesso");
-    document.getElementById("inputNome").value = "";
-    document.getElementById("inputIdade").value = "";
-    document.getElementById("inputCelular").value = "";
-    document.getElementById("inputEmail").value = "";
-    document.getElementById("inputSenha").value = "";
-    document.getElementById("inputSenha2").value = "";
-    window.location.href = loginURL;
-  }
+const formElements = {
+  nome: {
+    element: () => document.getElementById("inputNome"),
+    message: 'Preencha seu nome com pelo menos 3 caracteres!',
+    valid: function() {
+      const {value} = this.element();
+      return value && value.length >= 3;
+    },
+  },
+  idade: {
+    element: () => document.getElementById("inputIdade"),
+    message: 'Preencha sua idade corretamente!',
+    valid: function() {
+      const {value} = this.element();
+      return value && /[0-9]/.test(value);
+    },
+  },
+  celular: {
+    element: () => document.getElementById("inputCelular"),
+    message: 'Preencha seu celular incluindo o DDD corretamente!',
+    valid: function() {
+      const {value} = this.element();
+      return value && value.length >= 11;
+    },
+  },
+  email: {
+    element: () => document.getElementById("inputEmail"),
+    message: 'Preencha seu email corretamente!',
+    valid: function() {
+      const {value} = this.element();
+      return value && /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(value)
+    }
+  },
+  senha: {
+    element: () => document.getElementById("inputSenha"),
+    message: 'Preencha sua senha com pelo menos 6 caracteres!',
+    valid: function() {
+      const {value} = this.element();
+      return value && value.length >= 6;
+    }
+  },
+  senha2: {
+    element: () => document.getElementById("inputSenha2"),
+    message: 'As senhas não coincidem!',
+    valid: function() {
+      const {value} = this.element();
+      return value && formElements.senha.element().value === value;
+    }
+  },
 }
+
+async function validateForm() {
+  for (let key in formElements) {
+    const formElement = formElements[key];
+
+    if (!formElement.valid()) {
+      showToast(formElement.message);
+      return;
+    }
+  }
+
+  try {
+    saveUser();
+    await showLoading("Cadastrando usuário...");
+    window.location.replace('/login');
+  } catch(e) {
+    showToast("Erro ao cadastrar usuário!");
+  } 
+}
+
+function saveUser() {
+  const user = getUserObject()
+  var listaUsuarios = JSON.parse(localStorage.getItem('lista_usuarios') || '[]');
+  listaUsuarios.push({
+    id: generateUUID(),
+    ...user
+  });
+  localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuarios)); 
+}
+
+function getUserObject() {
+  const map = Object.keys(formElements).filter(key => key !== 'senha2').map(key => ([key, formElements[key].element().value]));
+  return Object.fromEntries(map);
+}
+
 function generateUUID() {
   // Public Domain/MIT
   var d = new Date().getTime(); //Timestamp
@@ -49,57 +101,32 @@ function generateUUID() {
     return (c === "x" ? r : (r & 0x3) | 0x8).toString(16);
   });
 }
-function addData() {
-  var nome = document.getElementById("inputNome").value;
-  var idade = document.getElementById("inputIdade").value;
-  var celular = document.getElementById("inputCelular").value;
-  var email = document.getElementById("inputEmail").value;
-  var senha = document.getElementById("inputSenha").value;
-  var listaUsuarios = [];
-  if (localStorage.getItem("lista_usuarios") == null) {
-    listaUsuarios.push({
-      id: generateUUID(),
-      nome: nome,
-      idade: idade,
-      celular: celular,
-      email: email,
-      senha: senha,
-    });
 
-    localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuarios));
-  } else {
-    listaUsuarios = JSON.parse(localStorage.getItem("lista_usuarios"));
-    listaUsuarios.push({
-      id: generateUUID(),
-      nome: nome,
-      idade: idade,
-      celular: celular,
-      email: email,
-      senha: senha,
-    });
+function showLoading(message) {
+  return new Promise(resolve => {
+      let loading = document.getElementById("loading");
+      let loadingMessage = loading.querySelector('.loading-message');
+  
+      loadingMessage.innerHTML = message;
+      loading.style.display = 'flex';
 
-    localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuarios));
-  }
+      setTimeout(() => {
+          showToast("Cadastro feito com sucesso!");
+      }, 1000);
+  
+      setTimeout(() => {
+          loading.style.display = 'none';
+          resolve();
+      }, 2000);
+  })
 }
 
-/*
-function showData() {
-  var listaUsuarios;
-  if (localStorage.getItem("lista_usuarios") == null) {
-    listaUsuarios = [];
-  } else {
-    listaUsuarios = JSON.parse(localStorage.getItem("lista_usuarios"));
-  }
-
-  listaUsuarios.forEach((element, index) => {
-    console.log(
-      index,
-      element.name,
-      element.celular,
-      element.email,
-      element.senha
-    );
-  });
+function showToast(message) {
+  let toast = document.getElementById("toast");
+  toast.innerHTML = message;
+  toast.classList.add('show-toast');
+  
+  setTimeout(() => {
+    toast.classList.remove('show-toast');
+  }, 3000);
 }
-document.onload = showData();
-*/

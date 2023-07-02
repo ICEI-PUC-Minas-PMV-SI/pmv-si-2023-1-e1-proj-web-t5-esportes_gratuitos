@@ -107,6 +107,7 @@ body {
     }
 
     img {
+      display: none;
       position: absolute;
       right: -50px;
       top: 10px;
@@ -219,11 +220,19 @@ body {
       color: var(--white);
     }
 
-    &.enter-group {
+    &.not-joined {
       background: var(--light-green);
       border: none;
       border-radius: 30px;
       color: var(--dark-blue);
+      margin-top: 5px;
+    }
+
+    &.joined {
+      background: var(--red);
+      border: none;
+      border-radius: 30px;
+      color: var(--white);
       margin-top: 5px;
     }
   }

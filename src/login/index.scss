@@ -6,13 +6,14 @@
   --red: #b71c1c;
 }
 
-html, body {
-  height: 100%;
+html {
+  height: 100% !important;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  height: 100%;
   background: var(--dark-blue);
   align-items: center;
   overflow-y: scroll;
@@ -21,6 +22,7 @@ body {
 header {
   display: flex;
   flex-grow: 1;
+  height: 100% !important;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -108,8 +110,11 @@ section {
 }
 
 @media screen and (min-width: 560px) {
+  body {
+    justify-content: space-around;
+  }
+
   header {
-    margin: 100px 0;
     flex-grow: unset;
   }
 

@@ -60,6 +60,10 @@ body {
   transform: translateX(-360px);
   z-index: 3;
 
+  img {
+    cursor: pointer;
+  }
+
   .controls {
     margin-top: 15px;
     padding-top: 40px;

@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 11688327642,
         "nome": "Vôlei do Lalá",
         "descricao": "Somos um grupo de amigos apaixonados por vôlei que valoriza diversão e amizade acima de tudo!",
         "modalidade": 125,
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 1688324042,
         "nome": "Fut dos Amigos",
         "descricao": "Nós jogamos futsal todas as quartas-feiras e buscamos novos membros para se juntar a nós!",
         "modalidade": 44,
@@ -58,7 +58,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 1688320442,
         "nome": "SkateLane",
         "descricao": "Equipe profissional de skate em busca de novos talentos para integrar o time!",
         "modalidade": 109,
@@ -87,14 +87,13 @@
         ]
     },
     {
-        "id": 4,
+        "id": 1688313242,
         "nome": "BT das Estrelas",
         "descricao": "Venha jogar Beachtennis com jogadores profissionais e amadores em um ambiente descontraído!",
         "modalidade": 8,
         "acessivel": true,
         "localizacao": [
-            -21.811299964475296,
-            -46.58458579354765
+            -21.81154031432376, -46.58545072883609
         ],
         "reunioes": [
             {
@@ -116,7 +115,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 1688309642,
         "nome": "Capoeira para Todos",
         "descricao": "Oferecemos aulas gratuitas de capoeira para todas as idades e níveis de habilidade!",
         "modalidade": 22,

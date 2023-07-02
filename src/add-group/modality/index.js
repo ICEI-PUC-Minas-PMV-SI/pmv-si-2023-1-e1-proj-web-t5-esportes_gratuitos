@@ -3,6 +3,7 @@ var modality = "";
 var checkedElement = null;
 
 function init() {
+  verifyUser();
   const nextButton = document.getElementById("forward");
 
   if (location.href.split("#")[1] === "suggestion") {
@@ -77,4 +78,14 @@ function showToast(message) {
   setTimeout(() => {
     toast.classList.remove('show-toast');
   }, 3000);
+}
+
+function verifyUser() {
+  const userList = JSON.parse(localStorage.getItem('lista_usuarios') || '[]');
+  const userId = localStorage.getItem('usuarioLogadoID');
+  var user = userList.find(item => item.id === userId);
+
+  if (!userId || !user) {
+      window.location.replace('/login');
+  }
 }

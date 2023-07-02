@@ -138,14 +138,18 @@ table {
   border-radius: 30px;
   box-shadow: 0 0 10px 5px #b71c1caa;
   color: white;
-  margin: 20px;
+  margin: 20px auto;
   max-width: 80%;
   padding: 20px;
-  position: absolute;
+  position: absolute; 
+  top: 0;
+  right: 0;
+  left: 0;
   pointer-events: none;
   opacity: 0;
   transform: translateY(-50%);
   transition: all .5s ease-in;
+  text-align: center;
   z-index: 999;
 }
 
@@ -153,4 +157,29 @@ table {
   opacity: 1 !important;
   transform: translateY(0) !important;
   transition: all .5s ease-out !important;
+}
+
+#loading {
+  align-items: center;
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 900;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  background: #000000aa;
+}
+
+#loading .spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border-color: var(--light-green); 
+  border-right-color: transparent;
+}
+
+#loading .loading-message {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: var(--white);
 }

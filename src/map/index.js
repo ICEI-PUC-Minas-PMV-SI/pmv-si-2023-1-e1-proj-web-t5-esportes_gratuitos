@@ -86,6 +86,7 @@ const filters = {
 }
 
 async function init () {
+    verifyUser();
     createMap();
     getModalities();
     getGroups();
@@ -182,9 +183,9 @@ function getGroups() {
 }
 
 
-function getModalities(name = '') {
+function getModalities() {
     try {
-        const modalities = JSON.parse(localStorage.getItem('modalidades'), '[]');
+        modalities = JSON.parse(localStorage.getItem('modalidades'), '[]');
         const modalidades = document.getElementById("modalidades");
         for (let m of modalities) {
             var option = document.createElement("option");
@@ -209,7 +210,7 @@ function openDescription(grupo) {
     document.getElementById("group-modality").innerHTML = nomeModalidade;
     
     document.getElementById("group-name").innerHTML = grupo.nome;
-    document.getElementById("group-button").href = "/grupo/" + grupo.id;
+    document.getElementById("group-button").href = "/group/?id=" + grupo.id;
     document.getElementById("group").style.transform = "translateY(0)";
 }
 
@@ -262,6 +263,17 @@ function hideShadow() {
 
 function clearForm() {
     localStorage.removeItem('adicionar_grupo');
+}
+
+function verifyUser() {
+    if (!localStorage.getItem('usuarioLogadoID')) {
+        document.getElementById('profile').style.display = 'none';
+        document.getElementById('add-group').style.display = 'none'
+    }
+}
+
+function returnToLogin() {
+    window.location.replace('/login');
 }
 
 function toRadians(degrees) {

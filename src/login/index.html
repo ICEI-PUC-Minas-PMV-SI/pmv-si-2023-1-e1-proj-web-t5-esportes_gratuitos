@@ -29,12 +29,13 @@
         <h1>LOGIN</h1>
         <input id="inputEmail" type="email" placeholder="E-mail">
         <input id="inputSenha" type="password" placeholder="Senha">
-        <a onclick="loginUsuario()">Entrar</a>
+        <a id="login" onclick="loginUsuario()">Entrar</a>
         <a href="/recovery/" class="raised">Esqueci minha senha</a>
         <span>OU</span>
         <a href="/register">Registrar-se</a>
-        <a href="/map-no-user" class="raised">Continuar sem login</a>
+        <a class="raised" onclick="loginWithoutUser()">Continuar sem login</a>
     </section>
+    <div id="toast"></div>
     <script src="index.js"></script>
 </body>
 </html>
