@@ -48,6 +48,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Dados de entrada**    | Inserção de dados válidos no formulário de 'Esqueci minha senha'.                                                                                                                            |
 |   **Resultado obtido**    | Sucesso.                      |
 
+|     **Caso de Teste**     | **CT04 - Criar um grupo esportivo**                                                                                                                                                                                                                              |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Usuário preenche o formulário de criação do grupo, selecionando o esporte, dias, horário, local, nome, descrição e se o local é acessível ou não|
+| **Requisitos associados** | RF-003                                                                                                                                                                                                                                            |
+|  **Resultado esperado**   | Criação do grupo esportivo                                                                                                                                                                                                                                   |
+|   **Dados de entrada**    | Preencher o formulário da criação do grupo                                                                                                                                                                                                |
+|   **Resultado obtido**    | Sucesso.                                                                                                                                                                                                                                            |
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
