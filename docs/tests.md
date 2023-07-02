@@ -56,10 +56,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |   **Dados de entrada**    | Preencher o formulário da criação do grupo                                                                                                                                                                                                |
 |   **Resultado obtido**    | Sucesso.                                                                                                                                                                                                                                            |
 
-|     **Caso de Teste**     | **CT05 - Filtrar os grupos esportivos na tela**      |
+|     **Caso de Teste**     | **CT05 - Filtrar os grupos esportivos na tela e poder participar ou demonstrar interesse no grupo**      |
 | :-----------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     **Procedimento**      | 1) Usuário seleciona o filtro desejado e aperta para buscar o grupo desejado de acordo com o filtro selecionado|
-| **Requisitos associados** | RF-004                                                                                                                                                                                                                                           |
+| **Requisitos associados** | RF-004 / RF-005                                                                                                                                                                                                                                           |
 |  **Resultado esperado**   | Visualização de grupos esportivos através de algum tipo de filtro              |
 |   **Dados de entrada**    | Selecionar o filtro desejado na tela de filtros                                                                                                                                                                                                |
 |   **Resultado obtido**    | Sucesso.                                                                                                                                                                                                                                            |
@@ -90,7 +90,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 | _Caso de Teste_                   | **CT05 - Filtrar os grupos esportivos na tela**   |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| Requisito Associado               | RF-004 - Permitir que o usuário busque por grupos esportivos, delimitando por modalidade, acessibilidade e/ou distância        |
+| Requisito Associado               | RF-004 - Permitir que o usuário busque por grupos esportivos, delimitando por modalidade, acessibilidade e/ou distância / RF-005 - Permitir que o usuário (cadastrado) demonstre interesse em determinado esporte      |
 | Link do vídeo do teste realizado: | https://www.loom.com/share/ba5021de00d84a6dab3c3a094aa9192e?sid=809255c7-54ca-4e76-b324-8f0f11340e6b |
 
 
