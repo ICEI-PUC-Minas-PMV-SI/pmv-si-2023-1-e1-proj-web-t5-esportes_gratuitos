@@ -133,6 +133,8 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | Nº do Cenário | Descrição do cenário                                                                                                                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1             | Você é uma pessoa que deseja criar uma nova conta para participar de grupos esportivos na sua região. Entre no site, cadastre seus dados, crie sua conta e faça login com dados cadastrados. |
+| 2            | Você é uma pessoa que quer criar um grupo em sua região para poder encontrar pessoas que gostem do mesmo esporte que você, crie um grupo esportivo do seu gosto e veja ele disponível no mapa |
+| 3           | Você quer saber quais grupos esportivos já criados em sua região possuem algum tipo de acessibilidade para pessoas com deficiência, filtre os grupos através da aba de filtros ao apertar o ícone na barra de pesquisa |
 
 
 ## Registro de Testes de Usabilidade
@@ -152,7 +154,35 @@ Cenário 1: Você é uma pessoa que deseja criar uma nova conta para participar 
     Gostei da interface do projeto e também da agilidade e praticidade ao criar a conta e fazer o login;
     tem uma interface agradável, é simples e prático
     
+Cenário 2: Você é uma pessoa que quer criar um grupo em sua região para poder encontrar pessoas que gostem do mesmo esporte que você, crie um grupo esportivo do seu gosto e veja ele disponível no mapa
 
+| Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
+| 1                                          | SIM             | 5                    | 1:20.15 minuto                |
+| 2                                          | SIM             | 4                    | 2:30.32 minutos                 |
+| 3                                          | SIM             | 5                    | 1:15.47 minuto                  |
+|                                            |                 |                      |                                 |
+| **Média**                                  | 100%            | 5                    | 1:40 minuto                 |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 18.6 segundos                   |
+
+    Comentários dos usuários: Tela limpa e intuitiva;
+    Fácil acesso para poder criar grupos personalizados;
+    Boa visualização do grupo criado no mapa;
+
+Cenário 3: Você quer saber quais grupos esportivos já criados em sua região possuem algum tipo de acessibilidade para pessoas com deficiência, filtre os grupos através da aba de filtros ao apertar o ícone na barra de pesquisa
+
+| Usuário                                    | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| ------------------------------------------ | --------------- | -------------------- | ------------------------------- |
+| 1                                          | SIM             | 5                    | 20.54 segundos                |
+| 2                                          | SIM             | 5                    | 19.32 segundos                  |
+| 3                                          | SIM             | 5                    | 14.07 segundos                  |
+|                                            |                 |                      |                                 |
+| **Média**                                  | 100%            | 5                    | 18 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM             | 5                    | 6.21 segundos                   |
+
+    Comentários dos usuários: Muito fácil de fazer o filtro;
+    Filtro bem feito e fácil visualização no mapa;
+    
 
 
 ## Avaliação dos Testes de Usabilidade
