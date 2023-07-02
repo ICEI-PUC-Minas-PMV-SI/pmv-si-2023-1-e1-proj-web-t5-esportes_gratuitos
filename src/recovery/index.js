@@ -22,11 +22,7 @@ function enviarCodigo() {
     if (recuperarEmail == user.email) {
       console.log("email encontrado");
 
-      console.log(codigoAleatorio);
-    } else {
-      alert("email nao encontrado");
-      modal.style.display = "none";
-      shadow.style.display = "none";
+      alert(`Esse é o seu código de recuperação: ${codigoAleatorio}`);
     }
   });
 }
@@ -45,26 +41,3 @@ function confirmarCodigo() {
     window.location.href = "../login";
   }
 }
-/*
-function confirmarCodigo() {
-  var inputCodigo = document.getElementById("inputCodigo").value;
-  var novaSenha = document.getElementById("novaSenha").value;
-
-  if (codigoAleatorio == inputCodigo) {
-    console.log("Código confirmado");
-
-    var listaUsuario = JSON.parse(localStorage.getItem("lista_usuarios"));
-    var usuarioIndex = listaUsuario.findIndex(
-      (user) => user.codigo === codigoAleatorio
-    );
-
-    if (usuarioIndex !== -1) {
-      listaUsuario[usuarioIndex].senha = novaSenha;
-      localStorage.setItem("lista_usuarios", JSON.stringify(listaUsuario));
-      console.log("Senha atualizada:", listaUsuario[usuarioIndex]);
-    } else {
-      console.log("Usuário não encontrado");
-    }
-  }
-}
-*/
