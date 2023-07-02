@@ -60,19 +60,19 @@ main {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+
   .input-nome-grupo {
-    width: 500px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid var(--light-green);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    min-width: 0;
     padding: 15px;
     outline: 0;
-    font-size: 30px;
-    border-width: 0 0 2px;
-    border-color: var(--light-green);
-    background-color: var(--dark-blue);
-    border-bottom: 2px solid --light-green;
-    color: #f3f3f3;
-  }
-  .input-nome-grupo:focus {
-    outline: none;
+    text-align: center;
+    width: 70vw;
   }
 }
 
@@ -84,7 +84,7 @@ footer {
   padding: 30px 0;
   width: 100%;
 
-  a {
+  button {
     background: none;
     border: none;
     color: var(--light-green);

@@ -1,44 +1,77 @@
-var days = [];
-var checkedElement = null;
+var group = {};
+var meetings = [];
+var toastControl = false;
 
 function init() {
-  preencherDias();
-  var verificar = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
-  if (verificar.modalidade === undefined) {
+  group = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  if (group.modalidade === undefined) {
     window.location.replace("/add-group/modality");
   }
+
+  meetings = group.reunioes || [];
+  fillDays();
 }
 
 function checkMarker(element) {
-  let index = days.indexOf(element.getAttribute("value"));
+  let value = parseInt(element.getAttribute("value"));
+  let index = meetings.findIndex(item => item.id === value);
+  console.log(index);
 
   if (index < 0) {
-    days.push(element.getAttribute("value"));
+    meetings.push(getDay(value));
     element.childNodes[1].setAttribute("marked", "true");
   } else {
-    days.splice(index, 1);
+    meetings.splice(index, 1);
     element.childNodes[1].removeAttribute("marked");
   }
-  var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
-  grupo.reunioes = window.dias.filter((d) => {
-    return days.indexOf(d.id.toString()) >= 0;
+
+  group.reunioes = meetings.sort((a, b) => a.id - b.id);
+  localStorage.setItem("adicionar_grupo", JSON.stringify(group));
+
+  element.scrollIntoView({
+    behavior: 'auto',
+    block: 'center',  
+    inline: 'center'
   });
-  localStorage.setItem("adicionar_grupo", JSON.stringify(grupo));
 }
 
-function preencherDias() {
+function fillDays() {
   const ulElement = document.getElementById("listaDias");
-  var grupo = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
   for (const dia of window.dias) {
+    const markItem = meetings.find(item => item.id === dia.id);
     const li = document.createElement("li");
     li.value = dia.id;
-    li.innerHTML = dia.dia + ' <i class="bi bi-check2-circle"></i>';
+    li.innerHTML = `${dia.dia} <i class="bi bi-check2-circle" ${markItem !== undefined ? 'marked' : ''}></i>`;
     li.addEventListener("click", () => {
       checkMarker(li);
     });
     ulElement.appendChild(li);
-    if (grupo.dia === dia.dia) {
-      checkMarker(li);
-    }
   }
+}
+
+function getDay(day) {
+  return window.dias.find(item => item.id === parseInt(day));
+}
+
+function previous () { 
+  window.location.replace("/add-group/modality");
+}
+
+function next() {
+  group = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
+  if (!group.reunioes || group.reunioes.length === 0) {
+    showToast("Selecione os dias em que o grupo irá se reunir!");
+  } else {
+    window.location.replace("/add-group/hours");
+  }
+}
+
+function showToast(message) {
+    let toast = document.getElementById("toast");
+    toast.innerHTML = message;
+    toast.classList.add('show-toast');
+
+    setTimeout(() => {
+      toast.classList.remove('show-toast');
+    }, 3000);
 }

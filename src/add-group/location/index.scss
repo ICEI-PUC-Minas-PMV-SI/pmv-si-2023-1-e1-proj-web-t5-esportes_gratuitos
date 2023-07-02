@@ -164,10 +164,35 @@ footer {
     
     background: var(--dark-blue);
 
-    a {
+    button {
         background: none;
         border: none;
         color: var(--light-green);
         font-size: 1.6rem;
+    }
+}
+
+#loading {
+    align-items: center;
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 900;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(#000, 0.8);
+
+    .spinner-border {
+        width: 3rem;
+        height: 3rem;
+        border-color: var(--light-green); 
+        border-right-color: transparent;
+    }
+
+    .loading-message {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        color: var(--white);
     }
 }

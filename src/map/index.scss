@@ -251,6 +251,7 @@ body {
   margin: 10px auto;
   padding: 5px 10px;
   width: fit-content;
+  max-width: 80%;
   z-index: 1;
 
   input {
@@ -258,6 +259,7 @@ body {
     border: none;
     font-size: 1rem;
     margin: 0 20px;
+    min-width: 10px !important;
     color: var(--white);
   }
 

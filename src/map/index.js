@@ -90,6 +90,7 @@ async function init () {
     getModalities();
     getGroups();
     getFilters();
+    clearForm();
 }
 
 function createMap() {
@@ -155,7 +156,7 @@ function getGroups() {
             }
         }
 
-        setMapOnAll(null);
+        setMapOnAllMarkers(null);
         markers = [];
 
         for (let grupo of grupos) {
@@ -174,17 +175,12 @@ function getGroups() {
             markers.push(marker);
         }
 
-        setMapOnAll(map);
+        setMapOnAllMarkers(map);
     } catch (e) {
         console.error(e);
     }
 }
 
-function setMapOnAll(map) {
-    for (let i = 0; i < markers.length; i++) {
-        markers[i].setMap(map);
-    }
-}
 
 function getModalities(name = '') {
     try {
@@ -202,10 +198,16 @@ function getModalities(name = '') {
     }
 }
 
+function setMapOnAllMarkers(map) {
+    for (let i = 0; i < markers.length; i++) {
+        markers[i].setMap(map);
+    }
+}
+
 function openDescription(grupo) {
     const nomeModalidade = modalities.find(m => m.id === grupo.modalidade)?.modalidade || '';
     document.getElementById("group-modality").innerHTML = nomeModalidade;
-
+    
     document.getElementById("group-name").innerHTML = grupo.nome;
     document.getElementById("group-button").href = "/grupo/" + grupo.id;
     document.getElementById("group").style.transform = "translateY(0)";
@@ -217,19 +219,19 @@ function closeDescription() {
 
 function openElement(e) {
     element = e;
-
+    
     switch (e) {
         case 'sidebar': {
             document.getElementById("sidebar").style.transform = "translateX(0)";
             break;
         }
-
+        
         case 'modal': {
             document.getElementById("modal-add-group").style.display = "flex";
             break;
         }
     }
-
+    
     showShadow();
 }
 
@@ -240,7 +242,7 @@ function closeElement() {
             document.getElementById("sidebar").style.transform = "translateX(-360px)";
             break;
         };
-
+        
         case 'modal': {
             document.getElementById("modal-add-group").style.display = "none";
             break;
@@ -256,6 +258,10 @@ function showShadow() {
 
 function hideShadow() {
     document.getElementById("shadow").style.display = "none";
+}
+
+function clearForm() {
+    localStorage.removeItem('adicionar_grupo');
 }
 
 function toRadians(degrees) {

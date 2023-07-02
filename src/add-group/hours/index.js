@@ -8,14 +8,13 @@ var meetings = [];
 var group = {};
 
 function init() {
-  fillLists();
-
   group = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
   meetings = group.reunioes;
   if (meetings === undefined || meetings.length === 0) {
     window.location.replace("/add-group/days");
   }
-
+  
+  fillLists();
   setMeeting(meetings[actualMeetingIndex]);
 }
 
@@ -23,28 +22,28 @@ function setMeeting(meeting) {
   actualMeeting = meeting;
   document.getElementById("subtitle").innerHTML = meeting.dia;
 
-  if (meeting?.horario?.horas !== undefined && meeting?.horario?.minutos !== undefined) {
+  if (!!meeting?.horario?.horas || meeting?.horario?.horas === 0) {
     let _hour = document.querySelector(`#hour-list li[value='${meeting?.horario?.horas}']`);
-    let _minute = document.querySelector(`#minute-list li[value='${meeting?.horario?.minutos}']`);
-
-    if (!_hour || !_minute) return;
-
-    if (_hour !== hourElement) checkMarker('hour', _hour);
-    if (_minute !== minuteElement) checkMarker('minute', _minute);
-
-    _hour.scrollIntoView({
+    if (_hour && _hour !== hourElement) checkMarker('hour', _hour);
+    _hour && _hour.scrollIntoView({
       behavior: 'auto',
       block: 'center',  
       inline: 'center'
     });
-    _minute.scrollIntoView({
+  } else if (hourElement) {
+    checkMarker('hour', hourElement);
+  }
+
+  if (!!meeting?.horario?.minutos || meeting?.horario?.minutos === 0) {
+    let _minute = document.querySelector(`#minute-list li[value='${meeting?.horario?.minutos}']`);
+    if (_minute && _minute !== minuteElement) checkMarker('minute', _minute);
+    _minute && _minute.scrollIntoView({
       behavior: 'auto',
       block: 'center',
       inline: 'center'
     });
-  } else {
-    hourElement && checkMarker('hour', hourElement);
-    minuteElement && checkMarker('minute', minuteElement);
+  } else if (minuteElement) {
+    checkMarker('minute', minuteElement);
   }
 
 }
@@ -60,7 +59,16 @@ function previousMeeting() {
 
 function nextMeeting() {
   if (actualMeetingIndex === (meetings.length - 1)) {
-    window.location.replace("/add-group/name-group");
+
+    var missingHours = hasMissingHours();
+    if (!group.reunioes || group.reunioes.length === 0) {
+      showToast("Selecione os dias em que o grupo irá se reunir!");
+    } else if (missingHours) {
+      showToast(`Existem dias com horários a serem preenchidos! ${missingHours?.dia ? "(" +  missingHours.dia + ")" : ''}`)
+    }else {
+      window.location.replace("/add-group/name-group");
+    }
+
   } else {
     actualMeetingIndex++;
     setMeeting(meetings[actualMeetingIndex]);
@@ -78,11 +86,11 @@ function checkMarker(type, element) {
       }
 
       hourElement = element;
-      (actualMeeting.horario ??= {}).horas = parseInt(hour.textContent);
-      localStorage.setItem("adicionar_grupo", JSON.stringify(group));
+      setHours(hour.textContent);
     } else {
       hour = "";
       element.childNodes[1].removeAttribute("marked");
+      setHours(undefined);
     }
   } else if (type == "minute") {
     if (element.childNodes[0] != minute) {
@@ -94,11 +102,11 @@ function checkMarker(type, element) {
       }
 
       minuteElement = element;
-      (actualMeeting.horario ??= {}).minutos = parseInt(minute.textContent);
-      localStorage.setItem("adicionar_grupo", JSON.stringify(group));
+      setMinutes(minute.textContent);
     } else {
       minute = "";
       element.childNodes[1].removeAttribute("marked");
+      setMinutes(undefined);
     }
   }
 
@@ -107,6 +115,19 @@ function checkMarker(type, element) {
     block: 'center',  
     inline: 'center'
   });
+}
+
+function setHours(value) {
+  let v = parseInt(value);
+  (actualMeeting.horario ??= {}).horas = !isNaN(v) ? v : undefined;
+  localStorage.setItem("adicionar_grupo", JSON.stringify(group));
+}
+
+function setMinutes(value) {
+  let v = parseInt(value);
+  (actualMeeting.horario ??= {}).minutos =  !isNaN(v) ? v : undefined;
+  localStorage.setItem("adicionar_grupo", JSON.stringify(group));
+
 }
 
 function fillLists () {
@@ -132,4 +153,26 @@ function fillLists () {
     }); 
     minuteList.appendChild(li);
   }
+}
+
+function hasMissingHours () {
+  try {
+    return group.reunioes.find(item => 
+      !item?.horario || 
+      (!item?.horario?.horas && item?.horario?.horas !== 0) || 
+      (!item?.horario?.minutos && item?.horario?.minutos !== 0));
+  } catch (e) {
+    console.error(e);
+    return true;
+  }
+} 
+
+function showToast(message) {
+  let toast = document.getElementById("toast");
+  toast.innerHTML = message;
+  toast.classList.add('show-toast');
+
+  setTimeout(() => {
+    toast.classList.remove('show-toast');
+  }, 3000);
 }
