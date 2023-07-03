@@ -187,10 +187,8 @@ Cenário 3: Você quer saber quais grupos esportivos já criados em sua região 
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+De acordo com os resultados obtidos, a aplicação web apresenta boas soluções para os problemas propostos, contendo apenas alguns ajustes a serem feitos, como tornar possível a visualização da senha do usuário enquanto ele digita sua senha nos formulários de cadastro e login, mas o resultados foram positivos tendo em vista os testes de usabilidade com usuários reais e tendo suas respectivas taxas de sucesso com um resultado positivo
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Os resultados obtidos tiveram algumas diferenças em relação ao tempo em que o usuário levou para conseguir realizar o teste proposto, porém é importante ressaltar que os usuários tinham idades bem diferentes e possuíam backgrounds tecnológicos muito diferentes também, o que pode ter acarretado nessa diferença do tempo da realização do teste.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Mas no geral os resultados obtidos foram muito positivos, tendo em vista que as notas dadas pelos usuários foram altas (entre 4 e 5) e que também os comentários feitos pelos usuários foram de suma importância para a melhoria de certos aspectos do projeto e também para futuras melhorias que o projeto posssa sofrer.
