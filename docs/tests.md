@@ -96,11 +96,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Durante os testes, a aplicação apresentou poucas falhas e todos os testes propostos tiveram um resultado positivo em sua realização. Vale ressaltar alguns pontos fracos do projeto e que possam ser pontos de melhorias futuras nas próximas atualiações, como melhorias a experiência do usuário no momento em que ele deseja demonstrar interesse em algum grupo já criado. Portanto, em termos gerais os resultados obtidos foram positivos em relação aos testes das funcionalidades da aplicação web.
 
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
 
 # Testes de Usabilidade
 
