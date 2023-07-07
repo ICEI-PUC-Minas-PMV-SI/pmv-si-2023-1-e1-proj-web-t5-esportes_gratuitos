@@ -1,7 +1,11 @@
-# Esportes gratuitos
+# VEM - Viva Em Movimento
+
 
 ![viva em movimento](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-esportes_gratuitos/assets/127696849/b8efe8a1-a60d-4ae4-b438-c059229ad159)
 
+`CURSO: Sistemas de Informação`
+
+`DISCIPLINA: Projeto - Aplicações Web`
 
 `SEMESTRE: 1º`    
 
