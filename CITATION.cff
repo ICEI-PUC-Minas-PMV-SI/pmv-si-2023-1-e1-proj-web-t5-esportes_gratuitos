@@ -1,5 +1,5 @@
 cff-version: 1.0.1
-message: Please cite this software using these metadata.
+message: "Please cite this software using these metadata."
 title: "VEM - Viva Em Movimento"
 authors:
   - family-names: Taveira da Rocha
@@ -22,7 +22,8 @@ keywords:
   - Esportes
   - Programação
   - Front End
-repository-code:https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-esportes_gratuitos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-esportes_gratuitos
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-07-07
+
