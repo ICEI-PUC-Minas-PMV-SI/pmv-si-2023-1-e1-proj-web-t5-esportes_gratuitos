@@ -47,7 +47,7 @@ body {
     justify-content: space-between;
     width: 100%;
 
-    button {
+    a {
       background: none;
       border: none;
       font-size: 1.5rem;
@@ -58,12 +58,7 @@ body {
         color: var(--light-green);
       }
     }
-
-    .group-avatar {
-      border: 1px solid var(--light-green);
-      border-radius: 50%;
-      padding: 100px;
-    }
+    
   }
 
   @media screen and (max-width: 620px) {
@@ -99,17 +94,8 @@ body {
       h1 {
         font-size: 1.5rem;
         font-weight: 600;
+        text-transform: uppercase;
       }
-
-      h2 {
-        font-weight: 400;
-      }
-    }
-
-    img {
-      position: absolute;
-      right: -50px;
-      top: 10px;
     }
   }
 
@@ -119,50 +105,96 @@ body {
     max-height: 150px;
     max-width: 450px;
     overflow: auto;
+    font-weight: 300;
     box-sizing: border-box;
   }
 
-  .lista-participantes {
+  .interesteds {
     color: var(--white);
     margin-top: 20px;
-  
-    li {
-      display: flex;
-      align-items: center;
-  
-      i {
-        font-size: 3em;
-        color: var(--light-green);
-        margin-right: 10px;
-      }
-  
-      section {
+
+    & > span {
+      font-weight: 600;
+    }
+
+    ul {
+      margin-top: 20px;
+
+      li {
         display: flex;
-        flex-direction: column;
-        align-items: start;
-        
-        .name {
-          text-transform: capitalize;
-          font-size: 1.2rem;
-          font-weight: 600;
+        align-items: center;
+
+        i {
+          font-size: 3em;
+          color: var(--light-green);
+          margin-right: 10px;
         }
 
-        .phone {
-          font-size: .8rem;
+        section {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          
+          .name {
+            text-transform: capitalize;
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+
+          .phone {
+            font-size: .8rem;
+          }
         }
+
       }
-  
     }
+
+
   }
-  
 
   @media screen and (max-height: 730px) {
     .description {
       display: none;
     }
+  }
+}
 
-    .days {
-      margin-top: 0px;
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  
+  button, a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+    &.create-group {
+      background: var(--light-green);
+      border: none;
+      border-radius: 30px;
+      color: var(--dark-blue);
+      margin-top: 5px;
+    }
+
+    &.not-joined {
+      background: none;
+      border: 1px solid var(--light-green);
+      border-radius: 30px;
+      color: var(--white);
+    }
+
+    &.joined {
+      background: var(--red);
+      border: none;
+      border-radius: 30px;
+      color: var(--white);
+      margin-top: 5px;
     }
   }
+
 }

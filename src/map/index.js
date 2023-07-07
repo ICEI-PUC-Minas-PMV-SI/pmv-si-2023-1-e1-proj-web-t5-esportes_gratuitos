@@ -33,17 +33,17 @@ const filters = {
             return array.filter(item => item.modalidade === value);
         }
     },
-    // sugestoes: {
-    //     element: () => document.getElementById('sugestoes'),
-    //     active: function() {
-    //         const { checked } = this.element();
-    //         return checked;
-    //     },
-    //     filter: function (array) {
-    //         const { checked } = this.element();
-    //         return array.filter(item => item.acessivel === checked);
-    //     }
-    // },
+    sugestoes: {
+        element: () => document.getElementById('sugestoes'),
+        active: function() {
+            const { checked } = this.element();
+            return checked;
+        },
+        filter: function (array) {
+            const { checked } = this.element();
+            return array.filter(item => item.sugestao === checked);
+        }
+    },
     acessibilidade: {
         initialValue: false,
         element: () => document.getElementById('acessibilidade'),
@@ -167,7 +167,7 @@ function getGroups() {
                 position: { lat: latitude, lng: longitude},
                 title: grupo.nome,
                 icon: {
-                    url: "/assets/get-alt-fill.svg",
+                    url: grupo.sugestao ? "/assets/geo-alt.svg" : "/assets/get-alt-fill.svg",
                     scaledSize: new google.maps.Size(35, 35)
                 }
             });
@@ -207,11 +207,19 @@ function setMapOnAllMarkers(map) {
 
 function openDescription(grupo) {
     const nomeModalidade = modalities.find(m => m.id === grupo.modalidade)?.modalidade || '';
-    document.getElementById("group-modality").innerHTML = nomeModalidade;
-    
-    document.getElementById("group-name").innerHTML = grupo.nome;
-    document.getElementById("group-button").href = "/group/?id=" + grupo.id;
+
+    document.getElementById("group-modality").innerHTML = grupo.sugestao ? "Sugestão" : nomeModalidade;
+    document.getElementById("group-name").innerHTML = grupo.sugestao ? nomeModalidade : grupo.nome ;
+    document.getElementById("group-button").href = (grupo.sugestao ? "/interests/?id=" : "/group/?id=") + grupo.id;
     document.getElementById("group").style.transform = "translateY(0)";
+}
+
+function toGroupForm(isSuggestion) {
+    if (isSuggestion) {
+        localStorage.setItem("adicionar_grupo", JSON.stringify({sugestao: true}));
+    }
+
+    window.location.replace('/add-group/modality');
 }
 
 function closeDescription() {

@@ -37,9 +37,10 @@
                         <select name="modalidades" class="form-select" id="modalidades">
                             <option value="">Selecionar modalidade</option>
                         </select>
+                        
                     </div>
                 </div>
-                <!-- <div class="control">
+                <div class="control">
                     <p>Sugestões</p>
                     <div class="toggle-container">
                         <label class="switch">
@@ -49,7 +50,7 @@
                             </div>
                         </label>
                     </div>
-                </div> -->
+                </div>
                 <div class="control">
                     <p>Acessibilidade</p>
                     <div class="toggle-container">
@@ -111,8 +112,8 @@
             </button>
 
             <div class="modal-actions">
-                <a href="/add-group/modality/" class="create-group">Criar grupo</a>
-                <!-- <a href="/add-group/modality#suggestion"class="create-sugestion">Criar demanda</a> -->
+                <button onclick="toGroupForm(false)" class="create-group">Criar grupo</button>
+                <button onclick="toGroupForm(true)" class="create-sugestion">Criar sugestão</button>
             </div>
         </div>
     </div>

@@ -131,11 +131,14 @@ body {
         flex-basis: 50%;
 
         select {
+          --caret-down: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23f3f3f3' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/></svg>");
           cursor: pointer;
           box-shadow: none;
           background-color: var(--dark-blue);
+          background-image: var(--caret-down);
           color: var(--light-green);
-          padding: 0 5px;
+          border: none;
+          padding: 0 30px 0 5px;
           flex-grow: 1;
         }
       }
@@ -392,7 +395,7 @@ body {
     flex-direction: column;
     align-items: stretch;
 
-    a {
+    button {
       border-radius: 30px;
       font-family: "Poppins", sans-serif;
       font-size: 1rem;

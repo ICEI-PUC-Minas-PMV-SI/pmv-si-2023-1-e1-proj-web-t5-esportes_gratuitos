@@ -6,7 +6,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
@@ -17,6 +17,7 @@
     <link rel="stylesheet/less" type="text/css" href="index.scss" />
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
     
+    <script type="module" src="../api/storage.js" defer="true"></script>
     <script type="text/javascript" src="index.js"></script>
 
     <title>VEM</title>
@@ -26,31 +27,25 @@
     <div class="wrapper">
         <div class="header">
             <a href="/map/"><i class="bi bi-arrow-left"></i></a>
-            <a><i class="bi bi-share"></i></a>
         </div>
         <div class="content">
             <div class="title">
                 <div class="name">
-                    <h1>FUTEBOL</h1>
-                    <h2>Ultimos Interesados (25)</h2>
+                    <h1 id="modality"></h1>
                 </div>
-                <img src="../assets/acessibility.svg" alt="">
-                <div class="description">
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac elit iaculis orci molestie hendrerit. Maecenas eu interdum ex. Donec.
-                    <br>
-    
-                <div id="modality" class="picker" >
-                    <ul>
-                        Kellen V. Fernandes
-                        
             </div>
-            <div class="description">
+            <div class="description" id="description"></div>
+            <div class="interesteds" >
+                <span id="members-number">Últimos interessados (25)</span>
+                <ul id="members">
+                </ul>
+            </div>
+        </div>
         <div class="actions">
-            <a href="/integrantes/" class="see-participants">Estou Interessado</a>
-            <button class="enter-group">Criar Grupo </button>
+            <button id="enter-group" onclick="toggleEnter()"></button>
+            <button id="see-members" class="create-group" onclick="createGroup()">Criar grupo</button>
         </div>
     </div>
-
+    <div id="toast"></div>
 </body>
 </html>

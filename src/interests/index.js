@@ -63,11 +63,7 @@ function getGroup() {
 
 function fillGroup() {
     try {
-        document.getElementById("name").innerHTML = group.nome;
         document.getElementById("description").innerHTML = group.descricao;
-
-        // document.getElementById('likes').innerHTML =`${group.likes || 0} <i class="bi bi-hand-thumbs-up"></i>`;
-        // document.getElementById('deslikes').innerHTML = `<i class="bi bi-hand-thumbs-down"></i> ${group.deslikes || 0}`;
 
         const modalities = JSON.parse(
             localStorage.getItem("modalidades") || "[]"
@@ -75,12 +71,6 @@ function fillGroup() {
         const nomeModalidade =
             modalities.find((m) => m.id === group.modalidade)?.modalidade || "";
         document.getElementById("modality").innerHTML = nomeModalidade;
-
-        if (group.acessibilidade) {
-            document.getElementById("accesibility").style.display = "block";
-        } else {
-            document.getElementById("accesibility").style.display = "none";
-        }
 
         const [lat, lng] = group.localizacao;
         const position = { lat, lng };
@@ -90,39 +80,30 @@ function fillGroup() {
             position,
             title: group.name,
             icon: {
-                url: "/assets/get-alt-fill.svg",
+                url: "/assets/geo-alt.svg",
                 scaledSize: new google.maps.Size(40, 40),
             },
         });
 
-        const days = document.getElementById("days");
-        const weekDays = ["D", "S", "T", "Q", "Q", "S", "S"];
-        for (let index = 0; index < weekDays.length; index++) {
-            const spanElement = document.createElement("span");
-            const day = document.createElement("span");
-            const hour = document.createElement("span");
-
-            day.className = "day";
-            hour.className = "hour";
-            day.textContent = weekDays[index];
-
-            const meeting = group.reunioes.find((item) => item.id === index);
-            if (meeting) {
-                spanElement.className = "active";
-
-                const { horas, minutos } = meeting.horario;
-                hour.textContent = `${String(horas).padStart(2, "0")}:${String(
-                    minutos
-                ).padStart(2, "0")}h`;
-            } else {
-                spanElement.className = "inactive";
-                hour.textContent = `00:00h`;
-            }
-
-            spanElement.appendChild(day);
-            spanElement.appendChild(hour);
-            days.appendChild(spanElement);
-        }
+        const userList = JSON.parse(localStorage.getItem('lista_usuarios') || '[]');
+        const usersFilter = userList.filter(user => group.membros?.includes(user.id));
+        
+        const membersNumber = document.getElementById('members-number');
+        membersNumber.innerHTML = `Últimos interessados (${usersFilter.length})`;
+        
+        const members = document.getElementById('members');
+        members.innerHTML = '';
+        usersFilter.forEach(element => {
+            members.innerHTML += `
+            <li>
+                <i class="bi bi-person-circle"></i>
+                <section>
+                    <span class="name">${element.nome}</span>
+                    <span class="phone">${element.celular}</span>
+                </section>
+            </li>
+            `
+        });
     } catch (e) {
         console.error(e);
         showToast("Erro ao preencher dados do grupo!");
@@ -139,20 +120,22 @@ function toggleEnter() {
     var joined = group?.membros?.includes(userId);
 
     if (joined){
-        joinGroup.innerHTML = "Entrar no grupo";
+        joinGroup.innerHTML = "Estou interessado";
         joinGroup.className = 'not-joined';
         group.membros = group.membros.filter(item => item !== userId);
     } else {
-        joinGroup.innerHTML = "Sair do grupo";
+        joinGroup.innerHTML = "Retirar interesse";
         joinGroup.className = 'joined';
         (group.membros ??=[]).push(userId);
     }
 
     localStorage.setItem('grupos', JSON.stringify(groups));
+    getGroup()
 }
 
-function seeMembers() {
-    window.location.replace('/members/?id=' + group.id);
+function createGroup() {
+    localStorage.setItem('adicionar_grupo', JSON.stringify(group));
+    window.location.replace('/add-group/modality');
 }
 
 function showToast(message) {
@@ -177,10 +160,10 @@ function verifyUser() {
 
     var joinGroup = document.getElementById("enter-group");
     if (group?.membros?.includes(userId)) {
-        joinGroup.innerHTML = "Sair do grupo";
+        joinGroup.innerHTML = "Retirar interesse";
         joinGroup.className = 'joined';
     } else {
-        joinGroup.innerHTML = "Entrar no grupo";
+        joinGroup.innerHTML = "Estou interessado";
         joinGroup.className = 'not-joined';
     }
 }

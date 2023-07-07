@@ -13,7 +13,7 @@ function createMap() {
             -21.786642989870952,
             -46.588988926483765
         ),
-        zoom: 16,
+        zoom: 18,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true,
         panControl: false,
@@ -86,12 +86,13 @@ function fillGroup() {
         const userList = JSON.parse(localStorage.getItem('lista_usuarios') || '[]');
         userList.filter(user => group.membros.includes(user.id)).forEach(element => {
             members.innerHTML += `
-            <div class="participante-box">
+            <li>
                 <i class="bi bi-person-circle"></i>
-                <h2>${element.nome}</h2>
-                <p>${element.celular}</p>
-                <p></p>
-            </div>
+                <section>
+                    <span class="name">${element.nome}</span>
+                    <span class="phone">${element.celular}</span>
+                </section>
+            </li>
             `
         });
 

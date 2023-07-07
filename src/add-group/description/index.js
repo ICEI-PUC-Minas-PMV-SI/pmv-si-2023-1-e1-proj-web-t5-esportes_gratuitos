@@ -4,7 +4,10 @@ function init() {
   verifyUser();
 
   group = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
-  if (!group.nome) {
+
+  if (group.sugestao && group.modalidade === undefined) {
+    window.location.replace("/add-group/modality");
+  } else if (!group.sugestao && !group.nome) {
     window.location.replace("/add-group/name-group");
   }
 
@@ -21,12 +24,18 @@ function init() {
 }
 
 function previous () { 
-  window.location.replace("/add-group/name-group");
+  if (group.sugestao) {
+    window.location.replace("/add-group/modality");
+  } else {
+    window.location.replace("/add-group/name-group");
+  } 
 }
 
 function next() {
   if (!group || !group.descricao) {
     showToast("Preencha a descrição do grupo!");
+  } else if (group.sugestao) {
+    window.location.replace("/add-group/location")
   } else {
     window.location.replace("/add-group/accesibility");
   }

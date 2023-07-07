@@ -61,7 +61,7 @@ section {
     align-items: center;
     justify-content:center;
     text-align: center;
-    font-size: 600;
+    font-weight: 600;
     font-size: 1.5rem;
     margin-bottom: 20px;
     position: relative;
@@ -101,7 +101,6 @@ section {
     font-size: 1rem;
   }
   
-
   button {
     background: var(--dark-blue);
     font-size: 1rem;
@@ -120,15 +119,20 @@ section {
       font-size: 0.9rem;
     }
   }
-  .termos {
-    padding: 0;
-    background: #f3f3f3;
-    font-size: 1rem;
-    font-weight: 600; 
-    border-radius: 0;
-    color: #1a2a3a !important;
-    border: none;
-    text-decoration: underline;
+  
+  p {
+    text-align: center;
+    
+    .termos {
+      padding: 0;
+      background: #f3f3f3;
+      font-size: 1rem;
+      font-weight: 600; 
+      border-radius: 0;
+      color: #1a2a3a !important;
+      border: none;
+      text-decoration: underline;
+    }
   }
 }
 

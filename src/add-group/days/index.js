@@ -16,7 +16,6 @@ function init() {
 function checkMarker(element) {
   let value = parseInt(element.getAttribute("value"));
   let index = meetings.findIndex(item => item.id === value);
-  console.log(index);
 
   if (index < 0) {
     meetings.push(getDay(value));

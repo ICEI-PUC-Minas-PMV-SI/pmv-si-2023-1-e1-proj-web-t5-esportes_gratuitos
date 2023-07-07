@@ -4,17 +4,17 @@ var checkedElement = null;
 
 function init() {
   verifyUser();
-  const nextButton = document.getElementById("forward");
-
-  if (location.href.split("#")[1] === "suggestion") {
-    nextButton.href = "/add-group/location";
-  }
-
   group = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
   fillModalities();
 }
 
-function checkMarker(element) {
+function checkMarker(element, bypass = false) {
+
+  if (!bypass && group.id && group.sugestao) {
+    showToast("Campo bloqueado, grupos criados a partir de sugestão não é possível alterar a modalidade!");
+    return;
+  } 
+
   if (element.childNodes[0] != modality) {
     modality = element.childNodes[0];
     element.childNodes[1].setAttribute("marked", "true");
@@ -53,7 +53,7 @@ function fillModalities() {
     });
     ulElement.appendChild(li);
     if (group.modalidade === modalidade.id) {
-      checkMarker(li);
+      checkMarker(li, true);
     }
   }
 }
@@ -66,6 +66,8 @@ function next() {
   group = JSON.parse(localStorage.getItem("adicionar_grupo") || "{}");
   if (!group.modalidade && group.modalidade !== 0) {
     showToast("Selecione uma modalidade!");
+  } else if (group.sugestao && !group.id) {
+    window.location.replace("/add-group/description");
   } else {
     window.location.replace("/add-group/days");
   }
