@@ -49,3 +49,5 @@ O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
 
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-esportes_gratuitos/assets/128331107/34e1edc2-5992-4beb-aef8-aa513e4a7677
 
+[Slide Esportes gratuitos.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-esportes_gratuitos/files/11996564/Slide.Esportes.gratuitos.pdf)
+[VEM SLIDE.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-esportes_gratuitos/files/11996565/VEM.SLIDE.pdf)
