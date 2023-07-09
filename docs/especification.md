@@ -63,8 +63,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Paulo Oliveira  | Divulgar novas atividades esportivas ofertadas gratuitamente | Disponibilizá-las para a população |
 |João de Abreu | Encontrar locais que ofereçam atividades gratuitas perto de casa | Exercitar de forma regular e manter um estilo de vida saudável sem gastar muito dinheiro  |
 |João de Abreu | Ver as avaliações de outros usuários sobre os locais de esportes gratuitos | Escolher os melhores lugares para me exercitar e evitar perder tempo em locais ruins ou mal avaliados  |
-|Ana Júlia | Encontrar outras meninas que possuem os mesmos gostos para esportes do que ela e encontrar locais seguros para qualquer mulher praticar esportes | praticar seus esportes favoritos e manter uma rotina saudável
-|Joaquim Carlos Martins | Encontrar lugares acessíveis para PCD praticar atividade física | utilizar o esporte como qualidade de vida |
+|Ana Júlia | Encontrar outras meninas que possuem os mesmos gostos para esportes do que ela e encontrar locais seguros para qualquer mulher praticar esportes | Praticar seus esportes favoritos e manter uma rotina saudável
+|Joaquim Carlos Martins | Encontrar lugares acessíveis para PCD praticar atividade física | Utilizar o esporte como qualidade de vida |
 
 ## Requisitos
 
